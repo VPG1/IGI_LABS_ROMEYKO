@@ -1384,5 +1384,131 @@
     "command": "git commit -m 'Set group 353501 and journal number 8'",
     "output": "[STRWEB-IPR1 e865fbd] Set group 353501 and journal number 8\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt => 353501_ROMEIKO_8Test.txt (100%)\n",
     "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git switch main",
+    "output": "Already on 'main'\nYour branch and 'origin/main' have diverged,\nand have 13 and 10 different commits each, respectively.\n  (use \"git pull\" to merge the remote branch into yours)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git mv 353501_ROMEIKO_8Test.txt 353551_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git commit -m 'Correct group number to 353551'",
+    "output": "[main cd46a89] Correct group number to 353551\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename 353501_ROMEIKO_8Test.txt => 353551_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git switch IGI",
+    "output": "Switched to branch 'IGI'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git mv 353501_ROMEIKO_8Test.txt 353551_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git commit -m 'Correct group number to 353551'",
+    "output": "[IGI fc17eb5] Correct group number to 353551\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename 353501_ROMEIKO_8Test.txt => 353551_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git switch IGI-KR1",
+    "output": "Switched to branch 'IGI-KR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git mv 353501_ROMEIKO_8Test.txt 353551_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git commit -m 'Correct group number to 353551'",
+    "output": "[IGI-KR1 7b50253] Correct group number to 353551\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename 353501_ROMEIKO_8Test.txt => 353551_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git switch IGI-IPR1",
+    "output": "warning: unable to rmdir 'IGI/KR1/geometric_lib': Directory not empty\nSwitched to branch 'IGI-IPR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git mv 353501_ROMEIKO_8Test.txt 353551_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git commit -m 'Correct group number to 353551'",
+    "output": "[IGI-IPR1 d2ca757] Correct group number to 353551\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename 353501_ROMEIKO_8Test.txt => 353551_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git switch STRWEB",
+    "output": "Switched to branch 'STRWEB'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git mv 353501_ROMEIKO_8Test.txt 353551_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git commit -m 'Correct group number to 353551'",
+    "output": "[STRWEB baa7455] Correct group number to 353551\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename 353501_ROMEIKO_8Test.txt => 353551_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git switch STRWEB-KR1",
+    "output": "Switched to branch 'STRWEB-KR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git mv 353501_ROMEIKO_8Test.txt 353551_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git commit -m 'Correct group number to 353551'",
+    "output": "[STRWEB-KR1 a0a15aa] Correct group number to 353551\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename 353501_ROMEIKO_8Test.txt => 353551_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git switch STRWEB-IPR1",
+    "output": "Switched to branch 'STRWEB-IPR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git mv 353501_ROMEIKO_8Test.txt 353551_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity_correction",
+    "command": "git commit -m 'Correct group number to 353551'",
+    "output": "[STRWEB-IPR1 a0e005a] Correct group number to 353551\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename 353501_ROMEIKO_8Test.txt => 353551_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
   }
 ]
