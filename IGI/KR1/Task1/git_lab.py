@@ -16,8 +16,8 @@ def main():
     parser = argparse.ArgumentParser(description="Задание 1, вариант 8")
     parser.add_argument("--destination", type=Path, required=True)
     parser.add_argument("--repository", default="https://github.com/VPG1/IGI_LABS_ROMEYKO.git")
-    parser.add_argument("--group", default="GROUP_NUMBER")
-    parser.add_argument("--list-number", default="NUMBER_IN_LIST")
+    parser.add_argument("--group", default="353501")
+    parser.add_argument("--list-number", default="8")
     args = parser.parse_args()
     root = args.destination.resolve()
     if root.exists():

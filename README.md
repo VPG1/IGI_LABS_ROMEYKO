@@ -8,8 +8,8 @@
 ## Запуск
 
 ```bash
-git clone https://github.com/VPG1/IGI_LABS_ROMEYKO.git
-cd IGI_LABS_ROMEYKO
+git clone https://github.com/VPG1/IGI_LABS_ROMEYKO.git 353501_ROMEIKO_8
+cd 353501_ROMEIKO_8
 git submodule update --init --recursive
 python3 -m pip install -r requirements.txt
 cd IGI/KR1
@@ -25,8 +25,8 @@ docker run --rm -e TEXT="Вариант 8, 2026" kr1-variant8:1.0
 В меню 2А доступны пользовательский ввод и генератор. В 2Б текст считывается
 из UTF-8 файла, все результаты сохраняются и архивируются через zipfile.
 
-`GROUP_NUMBER` и `NUMBER_IN_LIST` в имени локального каталога должны быть
-заменены на фактический номер группы и номер в журнале. Вариант всегда 8.
+Группа 353501, номер в журнале 8. Базовая папка 353501_ROMEIKO_8.
+Преподаватель: Жвакина Анна Васильевна. Вариант 8.
 
 Площадь правильного пятиугольника со стороной 5 равна 43.0119350147.
 Проверены 26 тестов и все требуемые команды Docker.
