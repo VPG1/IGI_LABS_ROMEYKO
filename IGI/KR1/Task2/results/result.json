@@ -1,0 +1,24 @@
+{
+  "words_with_uppercase_and_digits": [
+    "A12",
+    "C00l_Pass",
+    "London9"
+  ],
+  "password_is_strong": true,
+  "uppercase_word_count": 3,
+  "longest_word_starting_l": "laboratory",
+  "repeated_words": {
+    "hello": 3,
+    "и": 3,
+    "laboratory": 2
+  },
+  "statistics": {
+    "total_sentences": 6,
+    "declarative": 4,
+    "interrogative": 1,
+    "imperative": 1,
+    "avg_sentence_length": 23.83,
+    "avg_word_length": 5.72,
+    "smiley_count": 3
+  }
+}
