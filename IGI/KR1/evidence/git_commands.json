@@ -1258,5 +1258,131 @@
     "command": "git diff main origin/main --stat",
     "output": "",
     "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git switch main",
+    "output": "Already on 'main'\nYour branch and 'origin/main' have diverged,\nand have 10 and 10 different commits each, respectively.\n  (use \"git pull\" to merge the remote branch into yours)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git mv GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt 353501_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git commit -m 'Set group 353501 and journal number 8'",
+    "output": "[main 7d262c7] Set group 353501 and journal number 8\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt => 353501_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git switch IGI",
+    "output": "Switched to branch 'IGI'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git mv GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt 353501_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git commit -m 'Set group 353501 and journal number 8'",
+    "output": "[IGI 038894d] Set group 353501 and journal number 8\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt => 353501_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git switch IGI-KR1",
+    "output": "Switched to branch 'IGI-KR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git mv GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt 353501_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git commit -m 'Set group 353501 and journal number 8'",
+    "output": "[IGI-KR1 d14a5c3] Set group 353501 and journal number 8\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt => 353501_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git switch IGI-IPR1",
+    "output": "warning: unable to rmdir 'IGI/KR1/geometric_lib': Directory not empty\nSwitched to branch 'IGI-IPR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git mv GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt 353501_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git commit -m 'Set group 353501 and journal number 8'",
+    "output": "[IGI-IPR1 7be9733] Set group 353501 and journal number 8\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt => 353501_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git switch STRWEB",
+    "output": "Switched to branch 'STRWEB'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git mv GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt 353501_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git commit -m 'Set group 353501 and journal number 8'",
+    "output": "[STRWEB 790117b] Set group 353501 and journal number 8\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt => 353501_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git switch STRWEB-KR1",
+    "output": "Switched to branch 'STRWEB-KR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git mv GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt 353501_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git commit -m 'Set group 353501 and journal number 8'",
+    "output": "[STRWEB-KR1 a769388] Set group 353501 and journal number 8\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt => 353501_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git switch STRWEB-IPR1",
+    "output": "Switched to branch 'STRWEB-IPR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git mv GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt 353501_ROMEIKO_8Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "identity",
+    "command": "git commit -m 'Set group 353501 and journal number 8'",
+    "output": "[STRWEB-IPR1 e865fbd] Set group 353501 and journal number 8\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt => 353501_ROMEIKO_8Test.txt (100%)\n",
+    "exit_code": 0
   }
 ]
