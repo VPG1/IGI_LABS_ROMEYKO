@@ -1,0 +1,44 @@
+[
+  {
+    "section": "task2a-input",
+    "command": "python3 main.py",
+    "stdin": "1\n-2\n2\n1\nВариант 8, 2026\nБез цифр\n0\n",
+    "output": "\nВариант 8\n1 - Задание 2А: количество цифр\n2 - Задание 2Б: анализ файла\n0 - Выход\nВыбор: Количество строк: Введите целое число от 1 до 10000.\nКоличество строк: 1 - ввод, 2 - генератор: Строка 1: Строка 2: 1. 'Вариант 8, 2026' -> цифр: 5\n2. 'Без цифр' -> цифр: 0\n\nВариант 8\n1 - Задание 2А: количество цифр\n2 - Задание 2Б: анализ файла\n0 - Выход\nВыбор: ",
+    "exit_code": 0
+  },
+  {
+    "section": "task2a-generator",
+    "command": "python3 main.py",
+    "stdin": "1\n2\n2\n24\n0\n",
+    "output": "\nВариант 8\n1 - Задание 2А: количество цифр\n2 - Задание 2Б: анализ файла\n0 - Выход\nВыбор: Количество строк: 1 - ввод, 2 - генератор: Длина генерируемой строки: 1. 'CouwojYwuhnEz4phpcAy5rFW' -> цифр: 2\n2. 'UjmlFQxkGD8c E8ayNgv5dCw' -> цифр: 3\n\nВариант 8\n1 - Задание 2А: количество цифр\n2 - Задание 2Б: анализ файла\n0 - Выход\nВыбор: ",
+    "exit_code": 0
+  },
+  {
+    "section": "task2b-file",
+    "command": "python3 main.py --input input.txt --output results/result.txt --password C00l_Pass --verbose",
+    "stdin": null,
+    "output": "INFO: Starting analyze_text\nINFO: Completed analyze_text\nКОНТРОЛЬНАЯ РАБОТА 1. ВАРИАНТ 8. ЗАДАНИЕ 2Б\nСлова с прописными буквами и цифрами: A12, C00l_Pass, London9\nПароль надежный по условию задания: да\nКоличество слов из прописных букв: 3\nСамое длинное слово на l: laboratory\nПовторяющиеся слова: hello (3), и (3), laboratory (2)\nПредложений всего: 6\nПовествовательных: 4\nВопросительных: 1\nПобудительных по знаку !: 1\nСредняя длина предложения (только слова): 23.83\nСредняя длина слова: 5.72\nКоличество смайликов: 3\n\nИнформация о файле в ZIP:\n{\n  \"archive\": \"results/result.zip\",\n  \"name\": \"result.txt\",\n  \"size\": 758,\n  \"compressed_size\": 404,\n  \"crc32\": \"967ecdb1\",\n  \"date_time\": [\n    2026,\n    10,\n    13,\n    8,\n    11,\n    32\n  ]\n}\n",
+    "exit_code": 0
+  },
+  {
+    "section": "pentagon",
+    "command": "python3 main.py --side 5 --color #23A6C8 --label Ромейко Матвей Дмитриевич  Вариант 8 --output results/pentagon.png --no-show",
+    "stdin": null,
+    "output": "Правильный пятиугольник: сторона a = 5, цвет = #23A6C8, площадь S = 43.011935\nСохранено: results/pentagon.png\n",
+    "exit_code": 0
+  },
+  {
+    "section": "pentagon-invalid",
+    "command": "python3 main.py --side -1 --no-show",
+    "stdin": null,
+    "output": "Ошибка: Сторона должна быть конечным числом больше нуля.\n",
+    "exit_code": 1
+  },
+  {
+    "section": "tests",
+    "command": "python3 -m unittest discover -s tests -v",
+    "stdin": null,
+    "output": "test_abstract_class (test_tasks.GeometryTests.test_abstract_class)\nEnsure the base figure cannot be instantiated. ... ok\ntest_color_property (test_tasks.GeometryTests.test_color_property)\nAccept a changed valid color and reject an invalid replacement. ... ok\ntest_five_equal_sides (test_tasks.GeometryTests.test_five_equal_sides)\nCheck that every adjacent vertex pair has the requested side. ... ok\ntest_invalid_sides (test_tasks.GeometryTests.test_invalid_sides)\nReject zero, negatives, infinity, NaN and nonnumeric data. ... ok\ntest_name_and_description (test_tasks.GeometryTests.test_name_and_description)\nReturn the class name and the required parameters. ... ok\ntest_pentagon_area (test_tasks.GeometryTests.test_pentagon_area)\nCheck a independently tabulated area for side five. ... ok\ntest_save_figure (test_tasks.GeometryTests.test_save_figure)\nSave an actual nonempty PNG without a GUI window. ... ok\ntest_shoelace_area (test_tasks.GeometryTests.test_shoelace_area)\nCompare analytic area against the independent polygon formula. ... ok\ntest_digit_type (test_tasks.TextTests.test_digit_type)\nReject a non-string instead of silently converting it. ... ok\ntest_digits (test_tasks.TextTests.test_digits)\nCount digits including zeros and Unicode digit characters. ... ok\ntest_empty_statistics (test_tasks.TextTests.test_empty_statistics)\nAvoid division by zero and exclude punctuation-only sentences. ... ok\ntest_file_archive_workflow (test_tasks.TextTests.test_file_archive_workflow)\nRead a BOM, preserve UTF-8 output and verify ZIP bytes and metadata. ... ok\ntest_generator_initialization (test_tasks.TextTests.test_generator_initialization)\nHonor count and line length and reproduce a supplied random seed. ... ok\ntest_input_initialization (test_tasks.TextTests.test_input_initialization)\nInitialize the same supplied sequence from deterministic user values. ... ok\ntest_invalid_generator_count (test_tasks.TextTests.test_invalid_generator_count)\nReject an invalid sequence dimension. ... ok\ntest_invalid_passwords (test_tasks.TextTests.test_invalid_passwords)\nReject missing categories, forbidden characters and trailing newlines. ... ok\ntest_invalid_smileys (test_tasks.TextTests.test_invalid_smileys)\nReject absent brackets, repeated prefixes and mixed bracket runs. ... ok\ntest_longest_l (test_tasks.TextTests.test_longest_l)\nReturn the first longest candidate and handle an absent candidate. ... ok\ntest_protect_input_file (test_tasks.TextTests.test_protect_input_file)\nPrevent overwriting the source with the report. ... ok\ntest_repeated_words (test_tasks.TextTests.test_repeated_words)\nIgnore capitalization and strip punctuation during tokenization. ... ok\ntest_sentence_statistics (test_tasks.TextTests.test_sentence_statistics)\nCheck manually counted word characters and punctuation categories. ... ok\ntest_unfinished_and_combined_punctuation (test_tasks.TextTests.test_unfinished_and_combined_punctuation)\nCount an unfinished tail and classify a mixed ending as a question. ... ok\ntest_upper_and_digits (test_tasks.TextTests.test_upper_and_digits)\nRequire both conditions and preserve complete word tokens. ... ok\ntest_uppercase_words (test_tasks.TextTests.test_uppercase_words)\nExclude mixed case, numeric words and underscores. ... ok\ntest_valid_passwords (test_tasks.TextTests.test_valid_passwords)\nAccept both assignment examples and an eight-character boundary. ... ok\ntest_valid_smileys (test_tasks.TextTests.test_valid_smileys)\nAccept all four bracket kinds with arbitrary minus counts. ... ok\n\n----------------------------------------------------------------------\nRan 26 tests in 0.292s\n\nOK\n",
+    "exit_code": 0
+  }
+]
