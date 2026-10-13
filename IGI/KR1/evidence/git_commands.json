@@ -1,0 +1,1262 @@
+[
+  {
+    "section": "1",
+    "command": "git --version",
+    "output": "git version 2.39.2 (Apple Git-143)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "1",
+    "command": "git clone https://github.com/VPG1/IGI_LABS_ROMEYKO.git /Users/kirill/Documents/Codex/2026-10-13/new-chat/work/package/Task1/GROUP_NUMBER_ROMEIKO_NUMBER_IN_LIST",
+    "output": "Cloning into '/Users/kirill/Documents/Codex/2026-10-13/new-chat/work/package/Task1/GROUP_NUMBER_ROMEIKO_NUMBER_IN_LIST'...\n",
+    "exit_code": 0
+  },
+  {
+    "section": "1",
+    "command": "git config user.name 'Ромейко Матвей Дмитриевич'",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "1",
+    "command": "git config user.email 'student@example.invalid'",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "1",
+    "command": "git config core.quotepath false",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "1",
+    "command": "git config --local --list",
+    "output": "core.repositoryformatversion=0\ncore.filemode=true\ncore.bare=false\ncore.logallrefupdates=true\ncore.ignorecase=true\ncore.precomposeunicode=true\ncore.quotepath=false\nremote.origin.url=https://github.com/VPG1/IGI_LABS_ROMEYKO.git\nremote.origin.fetch=+refs/heads/*:refs/remotes/origin/*\nbranch.main.remote=origin\nbranch.main.merge=refs/heads/main\nuser.name=Ромейко Матвей Дмитриевич\nuser.email=student@example.invalid\n",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "mkdir -p IGI IGI/KR1 IGI/IPR1 STRWEB STRWEB/KR1 STRWEB/IPR1 IGI/KR1/bin IGI/KR1/bin/700 IGI/KR1/bin/700/which IGI/KR1/bin/700/which/700 IGI/KR1/foo IGI/KR1/foo/441 IGI/KR1/foo/441/bar IGI/KR1/foo/441/bar/664 IGI/KR1/foo/441/example IGI/KR1/foo/441/example/200 IGI/KR1/foo/441/baz IGI/KR1/foo/441/baz/244",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI' > IGI/IGITest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1' > IGI/KR1/KR1Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/IPR1' > IGI/IPR1/IPR1Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for STRWEB' > STRWEB/STRWEBTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for STRWEB/KR1' > STRWEB/KR1/KR1Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for STRWEB/IPR1' > STRWEB/IPR1/IPR1Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/bin' > IGI/KR1/bin/binTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/bin/700' > IGI/KR1/bin/700/700Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/bin/700/which' > IGI/KR1/bin/700/which/whichTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/bin/700/which/700' > IGI/KR1/bin/700/which/700/700Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/foo' > IGI/KR1/foo/fooTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/foo/441' > IGI/KR1/foo/441/441Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/foo/441/bar' > IGI/KR1/foo/441/bar/barTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/foo/441/bar/664' > IGI/KR1/foo/441/bar/664/664Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/foo/441/example' > IGI/KR1/foo/441/example/exampleTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/foo/441/example/200' > IGI/KR1/foo/441/example/200/200Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/foo/441/baz' > IGI/KR1/foo/441/baz/bazTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Test file for IGI/KR1/foo/441/baz/244' > IGI/KR1/foo/441/baz/244/244Test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' 'Repository root test' > GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' '000' > IGI/KR1/foo/441/test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "printf '%s\\n' '411' > IGI/KR1/foo/441/baz/244/readme.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "find IGI STRWEB -type f | sort",
+    "output": "IGI/IGITest.txt\nIGI/IPR1/IPR1Test.txt\nIGI/KR1/KR1Test.txt\nIGI/KR1/bin/700/700Test.txt\nIGI/KR1/bin/700/which/700/700Test.txt\nIGI/KR1/bin/700/which/whichTest.txt\nIGI/KR1/bin/binTest.txt\nIGI/KR1/foo/441/441Test.txt\nIGI/KR1/foo/441/bar/664/664Test.txt\nIGI/KR1/foo/441/bar/barTest.txt\nIGI/KR1/foo/441/baz/244/244Test.txt\nIGI/KR1/foo/441/baz/244/readme.txt\nIGI/KR1/foo/441/baz/bazTest.txt\nIGI/KR1/foo/441/example/200/200Test.txt\nIGI/KR1/foo/441/example/exampleTest.txt\nIGI/KR1/foo/441/test.txt\nIGI/KR1/foo/fooTest.txt\nSTRWEB/IPR1/IPR1Test.txt\nSTRWEB/KR1/KR1Test.txt\nSTRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "2",
+    "command": "cat IGI/KR1/foo/441/test.txt IGI/KR1/foo/441/baz/244/readme.txt",
+    "output": "000\n411\n",
+    "exit_code": 0
+  },
+  {
+    "section": "3",
+    "command": "git clone https://github.com/smartiqaorg/geometric_lib.git IGI/KR1/geometric_lib",
+    "output": "Cloning into 'IGI/KR1/geometric_lib'...\n",
+    "exit_code": 0
+  },
+  {
+    "section": "3",
+    "command": "git submodule add https://github.com/smartiqaorg/geometric_lib.git IGI/KR1/geometric_lib",
+    "output": "Adding existing repo at 'IGI/KR1/geometric_lib' to the index\n",
+    "exit_code": 0
+  },
+  {
+    "section": "3",
+    "command": "git submodule status",
+    "output": " d078c8d9ee6155f3cb0e577d28d337b791de28e2 IGI/KR1/geometric_lib (heads/main)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4a",
+    "command": "git status --short",
+    "output": "A  .gitmodules\nA  IGI/KR1/geometric_lib\n?? GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\n?? IGI/IGITest.txt\n?? IGI/IPR1/\n?? IGI/KR1/KR1Test.txt\n?? IGI/KR1/bin/\n?? IGI/KR1/foo/\n?? STRWEB/\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4a",
+    "command": "git add IGI STRWEB .gitmodules GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4a",
+    "command": "git status --short",
+    "output": "A  .gitmodules\nA  GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nA  IGI/IGITest.txt\nA  IGI/IPR1/IPR1Test.txt\nA  IGI/KR1/KR1Test.txt\nA  IGI/KR1/bin/700/700Test.txt\nA  IGI/KR1/bin/700/which/700/700Test.txt\nA  IGI/KR1/bin/700/which/whichTest.txt\nA  IGI/KR1/bin/binTest.txt\nA  IGI/KR1/foo/441/441Test.txt\nA  IGI/KR1/foo/441/bar/664/664Test.txt\nA  IGI/KR1/foo/441/bar/barTest.txt\nA  IGI/KR1/foo/441/baz/244/244Test.txt\nA  IGI/KR1/foo/441/baz/244/readme.txt\nA  IGI/KR1/foo/441/baz/bazTest.txt\nA  IGI/KR1/foo/441/example/200/200Test.txt\nA  IGI/KR1/foo/441/example/exampleTest.txt\nA  IGI/KR1/foo/441/test.txt\nA  IGI/KR1/foo/fooTest.txt\nA  IGI/KR1/geometric_lib\nA  STRWEB/IPR1/IPR1Test.txt\nA  STRWEB/KR1/KR1Test.txt\nA  STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4b",
+    "command": "git status --short",
+    "output": "A  .gitmodules\nA  GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nA  IGI/IGITest.txt\nA  IGI/IPR1/IPR1Test.txt\nA  IGI/KR1/KR1Test.txt\nA  IGI/KR1/bin/700/700Test.txt\nA  IGI/KR1/bin/700/which/700/700Test.txt\nA  IGI/KR1/bin/700/which/whichTest.txt\nA  IGI/KR1/bin/binTest.txt\nA  IGI/KR1/foo/441/441Test.txt\nA  IGI/KR1/foo/441/bar/664/664Test.txt\nA  IGI/KR1/foo/441/bar/barTest.txt\nA  IGI/KR1/foo/441/baz/244/244Test.txt\nA  IGI/KR1/foo/441/baz/244/readme.txt\nA  IGI/KR1/foo/441/baz/bazTest.txt\nA  IGI/KR1/foo/441/example/200/200Test.txt\nA  IGI/KR1/foo/441/example/exampleTest.txt\nA  IGI/KR1/foo/441/test.txt\nA  IGI/KR1/foo/fooTest.txt\nA  IGI/KR1/geometric_lib\nA  STRWEB/IPR1/IPR1Test.txt\nA  STRWEB/KR1/KR1Test.txt\nA  STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4b",
+    "command": "printf '%s\\n' 'Edited after staging' >> IGI/IGITest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4b",
+    "command": "git status --short",
+    "output": "A  .gitmodules\nA  GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nAM IGI/IGITest.txt\nA  IGI/IPR1/IPR1Test.txt\nA  IGI/KR1/KR1Test.txt\nA  IGI/KR1/bin/700/700Test.txt\nA  IGI/KR1/bin/700/which/700/700Test.txt\nA  IGI/KR1/bin/700/which/whichTest.txt\nA  IGI/KR1/bin/binTest.txt\nA  IGI/KR1/foo/441/441Test.txt\nA  IGI/KR1/foo/441/bar/664/664Test.txt\nA  IGI/KR1/foo/441/bar/barTest.txt\nA  IGI/KR1/foo/441/baz/244/244Test.txt\nA  IGI/KR1/foo/441/baz/244/readme.txt\nA  IGI/KR1/foo/441/baz/bazTest.txt\nA  IGI/KR1/foo/441/example/200/200Test.txt\nA  IGI/KR1/foo/441/example/exampleTest.txt\nA  IGI/KR1/foo/441/test.txt\nA  IGI/KR1/foo/fooTest.txt\nA  IGI/KR1/geometric_lib\nA  STRWEB/IPR1/IPR1Test.txt\nA  STRWEB/KR1/KR1Test.txt\nA  STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4b",
+    "command": "git diff -- IGI/IGITest.txt",
+    "output": "diff --git a/IGI/IGITest.txt b/IGI/IGITest.txt\nindex afa834e..c638f1c 100644\n--- a/IGI/IGITest.txt\n+++ b/IGI/IGITest.txt\n@@ -1 +1,2 @@\n Test file for IGI\n+Edited after staging\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4b",
+    "command": "git diff --cached --stat",
+    "output": " .gitmodules                                 | 3 +++\n GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt | 1 +\n IGI/IGITest.txt                             | 1 +\n IGI/IPR1/IPR1Test.txt                       | 1 +\n IGI/KR1/KR1Test.txt                         | 1 +\n IGI/KR1/bin/700/700Test.txt                 | 1 +\n IGI/KR1/bin/700/which/700/700Test.txt       | 1 +\n IGI/KR1/bin/700/which/whichTest.txt         | 1 +\n IGI/KR1/bin/binTest.txt                     | 1 +\n IGI/KR1/foo/441/441Test.txt                 | 1 +\n IGI/KR1/foo/441/bar/664/664Test.txt         | 1 +\n IGI/KR1/foo/441/bar/barTest.txt             | 1 +\n IGI/KR1/foo/441/baz/244/244Test.txt         | 1 +\n IGI/KR1/foo/441/baz/244/readme.txt          | 1 +\n IGI/KR1/foo/441/baz/bazTest.txt             | 1 +\n IGI/KR1/foo/441/example/200/200Test.txt     | 1 +\n IGI/KR1/foo/441/example/exampleTest.txt     | 1 +\n IGI/KR1/foo/441/test.txt                    | 1 +\n IGI/KR1/foo/fooTest.txt                     | 1 +\n IGI/KR1/geometric_lib                       | 1 +\n STRWEB/IPR1/IPR1Test.txt                    | 1 +\n STRWEB/KR1/KR1Test.txt                      | 1 +\n STRWEB/STRWEBTest.txt                       | 1 +\n 23 files changed, 25 insertions(+)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4c",
+    "command": "git status --short",
+    "output": "A  .gitmodules\nA  GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nAM IGI/IGITest.txt\nA  IGI/IPR1/IPR1Test.txt\nA  IGI/KR1/KR1Test.txt\nA  IGI/KR1/bin/700/700Test.txt\nA  IGI/KR1/bin/700/which/700/700Test.txt\nA  IGI/KR1/bin/700/which/whichTest.txt\nA  IGI/KR1/bin/binTest.txt\nA  IGI/KR1/foo/441/441Test.txt\nA  IGI/KR1/foo/441/bar/664/664Test.txt\nA  IGI/KR1/foo/441/bar/barTest.txt\nA  IGI/KR1/foo/441/baz/244/244Test.txt\nA  IGI/KR1/foo/441/baz/244/readme.txt\nA  IGI/KR1/foo/441/baz/bazTest.txt\nA  IGI/KR1/foo/441/example/200/200Test.txt\nA  IGI/KR1/foo/441/example/exampleTest.txt\nA  IGI/KR1/foo/441/test.txt\nA  IGI/KR1/foo/fooTest.txt\nA  IGI/KR1/geometric_lib\nA  STRWEB/IPR1/IPR1Test.txt\nA  STRWEB/KR1/KR1Test.txt\nA  STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4c",
+    "command": "git commit -m 'Create variant 8 folder structure and submodule'",
+    "output": "[main cbd294c] Create variant 8 folder structure and submodule\n 23 files changed, 25 insertions(+)\n create mode 100644 .gitmodules\n create mode 100644 GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\n create mode 100644 IGI/IGITest.txt\n create mode 100644 IGI/IPR1/IPR1Test.txt\n create mode 100644 IGI/KR1/KR1Test.txt\n create mode 100644 IGI/KR1/bin/700/700Test.txt\n create mode 100644 IGI/KR1/bin/700/which/700/700Test.txt\n create mode 100644 IGI/KR1/bin/700/which/whichTest.txt\n create mode 100644 IGI/KR1/bin/binTest.txt\n create mode 100644 IGI/KR1/foo/441/441Test.txt\n create mode 100644 IGI/KR1/foo/441/bar/664/664Test.txt\n create mode 100644 IGI/KR1/foo/441/bar/barTest.txt\n create mode 100644 IGI/KR1/foo/441/baz/244/244Test.txt\n create mode 100644 IGI/KR1/foo/441/baz/244/readme.txt\n create mode 100644 IGI/KR1/foo/441/baz/bazTest.txt\n create mode 100644 IGI/KR1/foo/441/example/200/200Test.txt\n create mode 100644 IGI/KR1/foo/441/example/exampleTest.txt\n create mode 100644 IGI/KR1/foo/441/test.txt\n create mode 100644 IGI/KR1/foo/fooTest.txt\n create mode 160000 IGI/KR1/geometric_lib\n create mode 100644 STRWEB/IPR1/IPR1Test.txt\n create mode 100644 STRWEB/KR1/KR1Test.txt\n create mode 100644 STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4c",
+    "command": "git status --short",
+    "output": " M IGI/IGITest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4c",
+    "command": "git status --short",
+    "output": " M IGI/IGITest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4c",
+    "command": "git add IGI/IGITest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4c",
+    "command": "git status --short",
+    "output": "M  IGI/IGITest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4c",
+    "command": "git status --short",
+    "output": "M  IGI/IGITest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4c",
+    "command": "git commit -m 'Edit IGI test file'",
+    "output": "[main d650baa] Edit IGI test file\n 1 file changed, 1 insertion(+)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4c",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "printf '%s\\n' 'single temporary file' > single.tmp",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "?? single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "?? single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "printf '%s\\n' 'first' > first.tmp; printf '%s\\n' 'second' > second.tmp",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "?? first.tmp\n?? second.tmp\n?? single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "?? first.tmp\n?? second.tmp\n?? single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git add '*.tmp'",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "A  first.tmp\nA  second.tmp\nA  single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "A  first.tmp\nA  second.tmp\nA  single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git commit -m 'Add single file and temporary file group'",
+    "output": "[main f65cdab] Add single file and temporary file group\n 3 files changed, 3 insertions(+)\n create mode 100644 first.tmp\n create mode 100644 second.tmp\n create mode 100644 single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git rm single.tmp",
+    "output": "rm 'single.tmp'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "D  single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "D  single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git rm -- '*.tmp'",
+    "output": "rm 'first.tmp'\nrm 'second.tmp'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "D  first.tmp\nD  second.tmp\nD  single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "D  first.tmp\nD  second.tmp\nD  single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git commit -m 'Remove single file and temporary file group'",
+    "output": "[main 27641c8] Remove single file and temporary file group\n 3 files changed, 3 deletions(-)\n delete mode 100644 first.tmp\n delete mode 100644 second.tmp\n delete mode 100644 single.tmp\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4d",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git mv STRWEB/STRWEBTest.txt STRWEB/STRWEBRenamedTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git status --short",
+    "output": "R  STRWEB/STRWEBTest.txt -> STRWEB/STRWEBRenamedTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git status --short",
+    "output": "R  STRWEB/STRWEBTest.txt -> STRWEB/STRWEBRenamedTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git commit -m 'Rename STRWEB test file'",
+    "output": "[main b626023] Rename STRWEB test file\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename STRWEB/{STRWEBTest.txt => STRWEBRenamedTest.txt} (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git mv STRWEB/STRWEBRenamedTest.txt STRWEB/STRWEBTest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git status --short",
+    "output": "R  STRWEB/STRWEBRenamedTest.txt -> STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git status --short",
+    "output": "R  STRWEB/STRWEBRenamedTest.txt -> STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git commit -m 'Restore required folder test filename'",
+    "output": "[main 0f0313e] Restore required folder test filename\n 1 file changed, 0 insertions(+), 0 deletions(-)\n rename STRWEB/{STRWEBRenamedTest.txt => STRWEBTest.txt} (100%)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4e",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git submodule deinit -f IGI/KR1/geometric_lib",
+    "output": "warning: Submodule work tree 'IGI/KR1/geometric_lib' contains a .git directory. This will be replaced with a .git file by using absorbgitdirs.\nMigrating git directory of 'IGI/KR1/geometric_lib' from\n'/Users/kirill/Documents/Codex/2026-10-13/new-chat/work/package/Task1/GROUP_NUMBER_ROMEIKO_NUMBER_IN_LIST/IGI/KR1/geometric_lib/.git' to\n'/Users/kirill/Documents/Codex/2026-10-13/new-chat/work/package/Task1/GROUP_NUMBER_ROMEIKO_NUMBER_IN_LIST/.git/modules/IGI/KR1/geometric_lib'\nCleared directory 'IGI/KR1/geometric_lib'\nSubmodule 'IGI/KR1/geometric_lib' (https://github.com/smartiqaorg/geometric_lib.git) unregistered for path 'IGI/KR1/geometric_lib'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch main",
+    "output": "Already on 'main'\nYour branch is ahead of 'origin/main' by 6 commits.\n  (use \"git push\" to publish your local commits)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch -c IGI",
+    "output": "Switched to a new branch 'IGI'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git rm -r -- STRWEB",
+    "output": "rm 'STRWEB/IPR1/IPR1Test.txt'\nrm 'STRWEB/KR1/KR1Test.txt'\nrm 'STRWEB/STRWEBTest.txt'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "D  STRWEB/IPR1/IPR1Test.txt\nD  STRWEB/KR1/KR1Test.txt\nD  STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "D  STRWEB/IPR1/IPR1Test.txt\nD  STRWEB/KR1/KR1Test.txt\nD  STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git commit -m 'Keep folders for branch IGI'",
+    "output": "[IGI 5fcb88b] Keep folders for branch IGI\n 3 files changed, 3 deletions(-)\n delete mode 100644 STRWEB/IPR1/IPR1Test.txt\n delete mode 100644 STRWEB/KR1/KR1Test.txt\n delete mode 100644 STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git ls-tree -r --name-only HEAD",
+    "output": ".gitmodules\nGROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nIGI/IGITest.txt\nIGI/IPR1/IPR1Test.txt\nIGI/KR1/KR1Test.txt\nIGI/KR1/bin/700/700Test.txt\nIGI/KR1/bin/700/which/700/700Test.txt\nIGI/KR1/bin/700/which/whichTest.txt\nIGI/KR1/bin/binTest.txt\nIGI/KR1/foo/441/441Test.txt\nIGI/KR1/foo/441/bar/664/664Test.txt\nIGI/KR1/foo/441/bar/barTest.txt\nIGI/KR1/foo/441/baz/244/244Test.txt\nIGI/KR1/foo/441/baz/244/readme.txt\nIGI/KR1/foo/441/baz/bazTest.txt\nIGI/KR1/foo/441/example/200/200Test.txt\nIGI/KR1/foo/441/example/exampleTest.txt\nIGI/KR1/foo/441/test.txt\nIGI/KR1/foo/fooTest.txt\nIGI/KR1/geometric_lib\nLICENSE\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch main",
+    "output": "Switched to branch 'main'\nYour branch is ahead of 'origin/main' by 6 commits.\n  (use \"git push\" to publish your local commits)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch -c STRWEB",
+    "output": "Switched to a new branch 'STRWEB'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git rm -r -- IGI",
+    "output": "rm 'IGI/IGITest.txt'\nrm 'IGI/IPR1/IPR1Test.txt'\nrm 'IGI/KR1/KR1Test.txt'\nrm 'IGI/KR1/bin/700/700Test.txt'\nrm 'IGI/KR1/bin/700/which/700/700Test.txt'\nrm 'IGI/KR1/bin/700/which/whichTest.txt'\nrm 'IGI/KR1/bin/binTest.txt'\nrm 'IGI/KR1/foo/441/441Test.txt'\nrm 'IGI/KR1/foo/441/bar/664/664Test.txt'\nrm 'IGI/KR1/foo/441/bar/barTest.txt'\nrm 'IGI/KR1/foo/441/baz/244/244Test.txt'\nrm 'IGI/KR1/foo/441/baz/244/readme.txt'\nrm 'IGI/KR1/foo/441/baz/bazTest.txt'\nrm 'IGI/KR1/foo/441/example/200/200Test.txt'\nrm 'IGI/KR1/foo/441/example/exampleTest.txt'\nrm 'IGI/KR1/foo/441/test.txt'\nrm 'IGI/KR1/foo/fooTest.txt'\nrm 'IGI/KR1/geometric_lib'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "M  .gitmodules\nD  IGI/IGITest.txt\nD  IGI/IPR1/IPR1Test.txt\nD  IGI/KR1/KR1Test.txt\nD  IGI/KR1/bin/700/700Test.txt\nD  IGI/KR1/bin/700/which/700/700Test.txt\nD  IGI/KR1/bin/700/which/whichTest.txt\nD  IGI/KR1/bin/binTest.txt\nD  IGI/KR1/foo/441/441Test.txt\nD  IGI/KR1/foo/441/bar/664/664Test.txt\nD  IGI/KR1/foo/441/bar/barTest.txt\nD  IGI/KR1/foo/441/baz/244/244Test.txt\nD  IGI/KR1/foo/441/baz/244/readme.txt\nD  IGI/KR1/foo/441/baz/bazTest.txt\nD  IGI/KR1/foo/441/example/200/200Test.txt\nD  IGI/KR1/foo/441/example/exampleTest.txt\nD  IGI/KR1/foo/441/test.txt\nD  IGI/KR1/foo/fooTest.txt\nD  IGI/KR1/geometric_lib\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "M  .gitmodules\nD  IGI/IGITest.txt\nD  IGI/IPR1/IPR1Test.txt\nD  IGI/KR1/KR1Test.txt\nD  IGI/KR1/bin/700/700Test.txt\nD  IGI/KR1/bin/700/which/700/700Test.txt\nD  IGI/KR1/bin/700/which/whichTest.txt\nD  IGI/KR1/bin/binTest.txt\nD  IGI/KR1/foo/441/441Test.txt\nD  IGI/KR1/foo/441/bar/664/664Test.txt\nD  IGI/KR1/foo/441/bar/barTest.txt\nD  IGI/KR1/foo/441/baz/244/244Test.txt\nD  IGI/KR1/foo/441/baz/244/readme.txt\nD  IGI/KR1/foo/441/baz/bazTest.txt\nD  IGI/KR1/foo/441/example/200/200Test.txt\nD  IGI/KR1/foo/441/example/exampleTest.txt\nD  IGI/KR1/foo/441/test.txt\nD  IGI/KR1/foo/fooTest.txt\nD  IGI/KR1/geometric_lib\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git commit -m 'Keep folders for branch STRWEB'",
+    "output": "[STRWEB f3b5d7e] Keep folders for branch STRWEB\n 19 files changed, 22 deletions(-)\n delete mode 100644 IGI/IGITest.txt\n delete mode 100644 IGI/IPR1/IPR1Test.txt\n delete mode 100644 IGI/KR1/KR1Test.txt\n delete mode 100644 IGI/KR1/bin/700/700Test.txt\n delete mode 100644 IGI/KR1/bin/700/which/700/700Test.txt\n delete mode 100644 IGI/KR1/bin/700/which/whichTest.txt\n delete mode 100644 IGI/KR1/bin/binTest.txt\n delete mode 100644 IGI/KR1/foo/441/441Test.txt\n delete mode 100644 IGI/KR1/foo/441/bar/664/664Test.txt\n delete mode 100644 IGI/KR1/foo/441/bar/barTest.txt\n delete mode 100644 IGI/KR1/foo/441/baz/244/244Test.txt\n delete mode 100644 IGI/KR1/foo/441/baz/244/readme.txt\n delete mode 100644 IGI/KR1/foo/441/baz/bazTest.txt\n delete mode 100644 IGI/KR1/foo/441/example/200/200Test.txt\n delete mode 100644 IGI/KR1/foo/441/example/exampleTest.txt\n delete mode 100644 IGI/KR1/foo/441/test.txt\n delete mode 100644 IGI/KR1/foo/fooTest.txt\n delete mode 160000 IGI/KR1/geometric_lib\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git ls-tree -r --name-only HEAD",
+    "output": ".gitmodules\nGROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nLICENSE\nSTRWEB/IPR1/IPR1Test.txt\nSTRWEB/KR1/KR1Test.txt\nSTRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch main",
+    "output": "Switched to branch 'main'\nYour branch is ahead of 'origin/main' by 6 commits.\n  (use \"git push\" to publish your local commits)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch -c IGI-KR1",
+    "output": "Switched to a new branch 'IGI-KR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git rm -r -- STRWEB IGI/IPR1",
+    "output": "rm 'IGI/IPR1/IPR1Test.txt'\nrm 'STRWEB/IPR1/IPR1Test.txt'\nrm 'STRWEB/KR1/KR1Test.txt'\nrm 'STRWEB/STRWEBTest.txt'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "D  IGI/IPR1/IPR1Test.txt\nD  STRWEB/IPR1/IPR1Test.txt\nD  STRWEB/KR1/KR1Test.txt\nD  STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "D  IGI/IPR1/IPR1Test.txt\nD  STRWEB/IPR1/IPR1Test.txt\nD  STRWEB/KR1/KR1Test.txt\nD  STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git commit -m 'Keep folders for branch IGI-KR1'",
+    "output": "[IGI-KR1 7d3fd9d] Keep folders for branch IGI-KR1\n 4 files changed, 4 deletions(-)\n delete mode 100644 IGI/IPR1/IPR1Test.txt\n delete mode 100644 STRWEB/IPR1/IPR1Test.txt\n delete mode 100644 STRWEB/KR1/KR1Test.txt\n delete mode 100644 STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git ls-tree -r --name-only HEAD",
+    "output": ".gitmodules\nGROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nIGI/IGITest.txt\nIGI/KR1/KR1Test.txt\nIGI/KR1/bin/700/700Test.txt\nIGI/KR1/bin/700/which/700/700Test.txt\nIGI/KR1/bin/700/which/whichTest.txt\nIGI/KR1/bin/binTest.txt\nIGI/KR1/foo/441/441Test.txt\nIGI/KR1/foo/441/bar/664/664Test.txt\nIGI/KR1/foo/441/bar/barTest.txt\nIGI/KR1/foo/441/baz/244/244Test.txt\nIGI/KR1/foo/441/baz/244/readme.txt\nIGI/KR1/foo/441/baz/bazTest.txt\nIGI/KR1/foo/441/example/200/200Test.txt\nIGI/KR1/foo/441/example/exampleTest.txt\nIGI/KR1/foo/441/test.txt\nIGI/KR1/foo/fooTest.txt\nIGI/KR1/geometric_lib\nLICENSE\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch main",
+    "output": "Switched to branch 'main'\nYour branch is ahead of 'origin/main' by 6 commits.\n  (use \"git push\" to publish your local commits)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch -c IGI-IPR1",
+    "output": "Switched to a new branch 'IGI-IPR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git rm -r -- STRWEB IGI/KR1",
+    "output": "rm 'IGI/KR1/KR1Test.txt'\nrm 'IGI/KR1/bin/700/700Test.txt'\nrm 'IGI/KR1/bin/700/which/700/700Test.txt'\nrm 'IGI/KR1/bin/700/which/whichTest.txt'\nrm 'IGI/KR1/bin/binTest.txt'\nrm 'IGI/KR1/foo/441/441Test.txt'\nrm 'IGI/KR1/foo/441/bar/664/664Test.txt'\nrm 'IGI/KR1/foo/441/bar/barTest.txt'\nrm 'IGI/KR1/foo/441/baz/244/244Test.txt'\nrm 'IGI/KR1/foo/441/baz/244/readme.txt'\nrm 'IGI/KR1/foo/441/baz/bazTest.txt'\nrm 'IGI/KR1/foo/441/example/200/200Test.txt'\nrm 'IGI/KR1/foo/441/example/exampleTest.txt'\nrm 'IGI/KR1/foo/441/test.txt'\nrm 'IGI/KR1/foo/fooTest.txt'\nrm 'IGI/KR1/geometric_lib'\nrm 'STRWEB/IPR1/IPR1Test.txt'\nrm 'STRWEB/KR1/KR1Test.txt'\nrm 'STRWEB/STRWEBTest.txt'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "M  .gitmodules\nD  IGI/KR1/KR1Test.txt\nD  IGI/KR1/bin/700/700Test.txt\nD  IGI/KR1/bin/700/which/700/700Test.txt\nD  IGI/KR1/bin/700/which/whichTest.txt\nD  IGI/KR1/bin/binTest.txt\nD  IGI/KR1/foo/441/441Test.txt\nD  IGI/KR1/foo/441/bar/664/664Test.txt\nD  IGI/KR1/foo/441/bar/barTest.txt\nD  IGI/KR1/foo/441/baz/244/244Test.txt\nD  IGI/KR1/foo/441/baz/244/readme.txt\nD  IGI/KR1/foo/441/baz/bazTest.txt\nD  IGI/KR1/foo/441/example/200/200Test.txt\nD  IGI/KR1/foo/441/example/exampleTest.txt\nD  IGI/KR1/foo/441/test.txt\nD  IGI/KR1/foo/fooTest.txt\nD  IGI/KR1/geometric_lib\nD  STRWEB/IPR1/IPR1Test.txt\nD  STRWEB/KR1/KR1Test.txt\nD  STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "M  .gitmodules\nD  IGI/KR1/KR1Test.txt\nD  IGI/KR1/bin/700/700Test.txt\nD  IGI/KR1/bin/700/which/700/700Test.txt\nD  IGI/KR1/bin/700/which/whichTest.txt\nD  IGI/KR1/bin/binTest.txt\nD  IGI/KR1/foo/441/441Test.txt\nD  IGI/KR1/foo/441/bar/664/664Test.txt\nD  IGI/KR1/foo/441/bar/barTest.txt\nD  IGI/KR1/foo/441/baz/244/244Test.txt\nD  IGI/KR1/foo/441/baz/244/readme.txt\nD  IGI/KR1/foo/441/baz/bazTest.txt\nD  IGI/KR1/foo/441/example/200/200Test.txt\nD  IGI/KR1/foo/441/example/exampleTest.txt\nD  IGI/KR1/foo/441/test.txt\nD  IGI/KR1/foo/fooTest.txt\nD  IGI/KR1/geometric_lib\nD  STRWEB/IPR1/IPR1Test.txt\nD  STRWEB/KR1/KR1Test.txt\nD  STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git commit -m 'Keep folders for branch IGI-IPR1'",
+    "output": "[IGI-IPR1 b2a6a0a] Keep folders for branch IGI-IPR1\n 20 files changed, 22 deletions(-)\n delete mode 100644 IGI/KR1/KR1Test.txt\n delete mode 100644 IGI/KR1/bin/700/700Test.txt\n delete mode 100644 IGI/KR1/bin/700/which/700/700Test.txt\n delete mode 100644 IGI/KR1/bin/700/which/whichTest.txt\n delete mode 100644 IGI/KR1/bin/binTest.txt\n delete mode 100644 IGI/KR1/foo/441/441Test.txt\n delete mode 100644 IGI/KR1/foo/441/bar/664/664Test.txt\n delete mode 100644 IGI/KR1/foo/441/bar/barTest.txt\n delete mode 100644 IGI/KR1/foo/441/baz/244/244Test.txt\n delete mode 100644 IGI/KR1/foo/441/baz/244/readme.txt\n delete mode 100644 IGI/KR1/foo/441/baz/bazTest.txt\n delete mode 100644 IGI/KR1/foo/441/example/200/200Test.txt\n delete mode 100644 IGI/KR1/foo/441/example/exampleTest.txt\n delete mode 100644 IGI/KR1/foo/441/test.txt\n delete mode 100644 IGI/KR1/foo/fooTest.txt\n delete mode 160000 IGI/KR1/geometric_lib\n delete mode 100644 STRWEB/IPR1/IPR1Test.txt\n delete mode 100644 STRWEB/KR1/KR1Test.txt\n delete mode 100644 STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git ls-tree -r --name-only HEAD",
+    "output": ".gitmodules\nGROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nIGI/IGITest.txt\nIGI/IPR1/IPR1Test.txt\nLICENSE\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch main",
+    "output": "Switched to branch 'main'\nYour branch is ahead of 'origin/main' by 6 commits.\n  (use \"git push\" to publish your local commits)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch -c STRWEB-KR1",
+    "output": "Switched to a new branch 'STRWEB-KR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git rm -r -- IGI STRWEB/IPR1",
+    "output": "rm 'IGI/IGITest.txt'\nrm 'IGI/IPR1/IPR1Test.txt'\nrm 'IGI/KR1/KR1Test.txt'\nrm 'IGI/KR1/bin/700/700Test.txt'\nrm 'IGI/KR1/bin/700/which/700/700Test.txt'\nrm 'IGI/KR1/bin/700/which/whichTest.txt'\nrm 'IGI/KR1/bin/binTest.txt'\nrm 'IGI/KR1/foo/441/441Test.txt'\nrm 'IGI/KR1/foo/441/bar/664/664Test.txt'\nrm 'IGI/KR1/foo/441/bar/barTest.txt'\nrm 'IGI/KR1/foo/441/baz/244/244Test.txt'\nrm 'IGI/KR1/foo/441/baz/244/readme.txt'\nrm 'IGI/KR1/foo/441/baz/bazTest.txt'\nrm 'IGI/KR1/foo/441/example/200/200Test.txt'\nrm 'IGI/KR1/foo/441/example/exampleTest.txt'\nrm 'IGI/KR1/foo/441/test.txt'\nrm 'IGI/KR1/foo/fooTest.txt'\nrm 'IGI/KR1/geometric_lib'\nrm 'STRWEB/IPR1/IPR1Test.txt'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "M  .gitmodules\nD  IGI/IGITest.txt\nD  IGI/IPR1/IPR1Test.txt\nD  IGI/KR1/KR1Test.txt\nD  IGI/KR1/bin/700/700Test.txt\nD  IGI/KR1/bin/700/which/700/700Test.txt\nD  IGI/KR1/bin/700/which/whichTest.txt\nD  IGI/KR1/bin/binTest.txt\nD  IGI/KR1/foo/441/441Test.txt\nD  IGI/KR1/foo/441/bar/664/664Test.txt\nD  IGI/KR1/foo/441/bar/barTest.txt\nD  IGI/KR1/foo/441/baz/244/244Test.txt\nD  IGI/KR1/foo/441/baz/244/readme.txt\nD  IGI/KR1/foo/441/baz/bazTest.txt\nD  IGI/KR1/foo/441/example/200/200Test.txt\nD  IGI/KR1/foo/441/example/exampleTest.txt\nD  IGI/KR1/foo/441/test.txt\nD  IGI/KR1/foo/fooTest.txt\nD  IGI/KR1/geometric_lib\nD  STRWEB/IPR1/IPR1Test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "M  .gitmodules\nD  IGI/IGITest.txt\nD  IGI/IPR1/IPR1Test.txt\nD  IGI/KR1/KR1Test.txt\nD  IGI/KR1/bin/700/700Test.txt\nD  IGI/KR1/bin/700/which/700/700Test.txt\nD  IGI/KR1/bin/700/which/whichTest.txt\nD  IGI/KR1/bin/binTest.txt\nD  IGI/KR1/foo/441/441Test.txt\nD  IGI/KR1/foo/441/bar/664/664Test.txt\nD  IGI/KR1/foo/441/bar/barTest.txt\nD  IGI/KR1/foo/441/baz/244/244Test.txt\nD  IGI/KR1/foo/441/baz/244/readme.txt\nD  IGI/KR1/foo/441/baz/bazTest.txt\nD  IGI/KR1/foo/441/example/200/200Test.txt\nD  IGI/KR1/foo/441/example/exampleTest.txt\nD  IGI/KR1/foo/441/test.txt\nD  IGI/KR1/foo/fooTest.txt\nD  IGI/KR1/geometric_lib\nD  STRWEB/IPR1/IPR1Test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git commit -m 'Keep folders for branch STRWEB-KR1'",
+    "output": "[STRWEB-KR1 64293a7] Keep folders for branch STRWEB-KR1\n 20 files changed, 23 deletions(-)\n delete mode 100644 IGI/IGITest.txt\n delete mode 100644 IGI/IPR1/IPR1Test.txt\n delete mode 100644 IGI/KR1/KR1Test.txt\n delete mode 100644 IGI/KR1/bin/700/700Test.txt\n delete mode 100644 IGI/KR1/bin/700/which/700/700Test.txt\n delete mode 100644 IGI/KR1/bin/700/which/whichTest.txt\n delete mode 100644 IGI/KR1/bin/binTest.txt\n delete mode 100644 IGI/KR1/foo/441/441Test.txt\n delete mode 100644 IGI/KR1/foo/441/bar/664/664Test.txt\n delete mode 100644 IGI/KR1/foo/441/bar/barTest.txt\n delete mode 100644 IGI/KR1/foo/441/baz/244/244Test.txt\n delete mode 100644 IGI/KR1/foo/441/baz/244/readme.txt\n delete mode 100644 IGI/KR1/foo/441/baz/bazTest.txt\n delete mode 100644 IGI/KR1/foo/441/example/200/200Test.txt\n delete mode 100644 IGI/KR1/foo/441/example/exampleTest.txt\n delete mode 100644 IGI/KR1/foo/441/test.txt\n delete mode 100644 IGI/KR1/foo/fooTest.txt\n delete mode 160000 IGI/KR1/geometric_lib\n delete mode 100644 STRWEB/IPR1/IPR1Test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git ls-tree -r --name-only HEAD",
+    "output": ".gitmodules\nGROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nLICENSE\nSTRWEB/KR1/KR1Test.txt\nSTRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch main",
+    "output": "Switched to branch 'main'\nYour branch is ahead of 'origin/main' by 6 commits.\n  (use \"git push\" to publish your local commits)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch -c STRWEB-IPR1",
+    "output": "Switched to a new branch 'STRWEB-IPR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git rm -r -- IGI STRWEB/KR1",
+    "output": "rm 'IGI/IGITest.txt'\nrm 'IGI/IPR1/IPR1Test.txt'\nrm 'IGI/KR1/KR1Test.txt'\nrm 'IGI/KR1/bin/700/700Test.txt'\nrm 'IGI/KR1/bin/700/which/700/700Test.txt'\nrm 'IGI/KR1/bin/700/which/whichTest.txt'\nrm 'IGI/KR1/bin/binTest.txt'\nrm 'IGI/KR1/foo/441/441Test.txt'\nrm 'IGI/KR1/foo/441/bar/664/664Test.txt'\nrm 'IGI/KR1/foo/441/bar/barTest.txt'\nrm 'IGI/KR1/foo/441/baz/244/244Test.txt'\nrm 'IGI/KR1/foo/441/baz/244/readme.txt'\nrm 'IGI/KR1/foo/441/baz/bazTest.txt'\nrm 'IGI/KR1/foo/441/example/200/200Test.txt'\nrm 'IGI/KR1/foo/441/example/exampleTest.txt'\nrm 'IGI/KR1/foo/441/test.txt'\nrm 'IGI/KR1/foo/fooTest.txt'\nrm 'IGI/KR1/geometric_lib'\nrm 'STRWEB/KR1/KR1Test.txt'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "M  .gitmodules\nD  IGI/IGITest.txt\nD  IGI/IPR1/IPR1Test.txt\nD  IGI/KR1/KR1Test.txt\nD  IGI/KR1/bin/700/700Test.txt\nD  IGI/KR1/bin/700/which/700/700Test.txt\nD  IGI/KR1/bin/700/which/whichTest.txt\nD  IGI/KR1/bin/binTest.txt\nD  IGI/KR1/foo/441/441Test.txt\nD  IGI/KR1/foo/441/bar/664/664Test.txt\nD  IGI/KR1/foo/441/bar/barTest.txt\nD  IGI/KR1/foo/441/baz/244/244Test.txt\nD  IGI/KR1/foo/441/baz/244/readme.txt\nD  IGI/KR1/foo/441/baz/bazTest.txt\nD  IGI/KR1/foo/441/example/200/200Test.txt\nD  IGI/KR1/foo/441/example/exampleTest.txt\nD  IGI/KR1/foo/441/test.txt\nD  IGI/KR1/foo/fooTest.txt\nD  IGI/KR1/geometric_lib\nD  STRWEB/KR1/KR1Test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "M  .gitmodules\nD  IGI/IGITest.txt\nD  IGI/IPR1/IPR1Test.txt\nD  IGI/KR1/KR1Test.txt\nD  IGI/KR1/bin/700/700Test.txt\nD  IGI/KR1/bin/700/which/700/700Test.txt\nD  IGI/KR1/bin/700/which/whichTest.txt\nD  IGI/KR1/bin/binTest.txt\nD  IGI/KR1/foo/441/441Test.txt\nD  IGI/KR1/foo/441/bar/664/664Test.txt\nD  IGI/KR1/foo/441/bar/barTest.txt\nD  IGI/KR1/foo/441/baz/244/244Test.txt\nD  IGI/KR1/foo/441/baz/244/readme.txt\nD  IGI/KR1/foo/441/baz/bazTest.txt\nD  IGI/KR1/foo/441/example/200/200Test.txt\nD  IGI/KR1/foo/441/example/exampleTest.txt\nD  IGI/KR1/foo/441/test.txt\nD  IGI/KR1/foo/fooTest.txt\nD  IGI/KR1/geometric_lib\nD  STRWEB/KR1/KR1Test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git commit -m 'Keep folders for branch STRWEB-IPR1'",
+    "output": "[STRWEB-IPR1 2a4fcfd] Keep folders for branch STRWEB-IPR1\n 20 files changed, 23 deletions(-)\n delete mode 100644 IGI/IGITest.txt\n delete mode 100644 IGI/IPR1/IPR1Test.txt\n delete mode 100644 IGI/KR1/KR1Test.txt\n delete mode 100644 IGI/KR1/bin/700/700Test.txt\n delete mode 100644 IGI/KR1/bin/700/which/700/700Test.txt\n delete mode 100644 IGI/KR1/bin/700/which/whichTest.txt\n delete mode 100644 IGI/KR1/bin/binTest.txt\n delete mode 100644 IGI/KR1/foo/441/441Test.txt\n delete mode 100644 IGI/KR1/foo/441/bar/664/664Test.txt\n delete mode 100644 IGI/KR1/foo/441/bar/barTest.txt\n delete mode 100644 IGI/KR1/foo/441/baz/244/244Test.txt\n delete mode 100644 IGI/KR1/foo/441/baz/244/readme.txt\n delete mode 100644 IGI/KR1/foo/441/baz/bazTest.txt\n delete mode 100644 IGI/KR1/foo/441/example/200/200Test.txt\n delete mode 100644 IGI/KR1/foo/441/example/exampleTest.txt\n delete mode 100644 IGI/KR1/foo/441/test.txt\n delete mode 100644 IGI/KR1/foo/fooTest.txt\n delete mode 160000 IGI/KR1/geometric_lib\n delete mode 100644 STRWEB/KR1/KR1Test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git ls-tree -r --name-only HEAD",
+    "output": ".gitmodules\nGROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nLICENSE\nSTRWEB/IPR1/IPR1Test.txt\nSTRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch main",
+    "output": "Switched to branch 'main'\nYour branch is ahead of 'origin/main' by 6 commits.\n  (use \"git push\" to publish your local commits)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git submodule update --init",
+    "output": "Submodule 'IGI/KR1/geometric_lib' (https://github.com/smartiqaorg/geometric_lib.git) registered for path 'IGI/KR1/geometric_lib'\nSubmodule path 'IGI/KR1/geometric_lib': checked out 'd078c8d9ee6155f3cb0e577d28d337b791de28e2'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git branch --list",
+    "output": "  IGI\n  IGI-IPR1\n  IGI-KR1\n  STRWEB\n  STRWEB-IPR1\n  STRWEB-KR1\n* main\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4g",
+    "command": "git log --oneline --all",
+    "output": "5fcb88b Keep folders for branch IGI\nb2a6a0a Keep folders for branch IGI-IPR1\n7d3fd9d Keep folders for branch IGI-KR1\nf3b5d7e Keep folders for branch STRWEB\n2a4fcfd Keep folders for branch STRWEB-IPR1\n64293a7 Keep folders for branch STRWEB-KR1\n0f0313e Restore required folder test filename\nb626023 Rename STRWEB test file\n27641c8 Remove single file and temporary file group\nf65cdab Add single file and temporary file group\nd650baa Edit IGI test file\ncbd294c Create variant 8 folder structure and submodule\n0874187 Initial commit\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4g",
+    "command": "git log -n 3 --oneline",
+    "output": "0f0313e Restore required folder test filename\nb626023 Rename STRWEB test file\n27641c8 Remove single file and temporary file group\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4g",
+    "command": "git log --since=2026-10-12 --oneline",
+    "output": "0f0313e Restore required folder test filename\nb626023 Rename STRWEB test file\n27641c8 Remove single file and temporary file group\nf65cdab Add single file and temporary file group\nd650baa Edit IGI test file\ncbd294c Create variant 8 folder structure and submodule\n0874187 Initial commit\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4g",
+    "command": "git log --after=2026-10-12 --oneline",
+    "output": "0f0313e Restore required folder test filename\nb626023 Rename STRWEB test file\n27641c8 Remove single file and temporary file group\nf65cdab Add single file and temporary file group\nd650baa Edit IGI test file\ncbd294c Create variant 8 folder structure and submodule\n0874187 Initial commit\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4g",
+    "command": "git log --until=2026-10-14 --oneline",
+    "output": "0f0313e Restore required folder test filename\nb626023 Rename STRWEB test file\n27641c8 Remove single file and temporary file group\nf65cdab Add single file and temporary file group\nd650baa Edit IGI test file\ncbd294c Create variant 8 folder structure and submodule\n0874187 Initial commit\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4g",
+    "command": "git log --before=2026-10-14 --oneline",
+    "output": "0f0313e Restore required folder test filename\nb626023 Rename STRWEB test file\n27641c8 Remove single file and temporary file group\nf65cdab Add single file and temporary file group\nd650baa Edit IGI test file\ncbd294c Create variant 8 folder structure and submodule\n0874187 Initial commit\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4g",
+    "command": "git log --author='Ромейко' --oneline",
+    "output": "0f0313e Restore required folder test filename\nb626023 Rename STRWEB test file\n27641c8 Remove single file and temporary file group\nf65cdab Add single file and temporary file group\nd650baa Edit IGI test file\ncbd294c Create variant 8 folder structure and submodule\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4g",
+    "command": "git log --committer='Ромейко' --oneline",
+    "output": "0f0313e Restore required folder test filename\nb626023 Rename STRWEB test file\n27641c8 Remove single file and temporary file group\nf65cdab Add single file and temporary file group\nd650baa Edit IGI test file\ncbd294c Create variant 8 folder structure and submodule\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4g",
+    "command": "git log --grep='Rename' --oneline",
+    "output": "b626023 Rename STRWEB test file\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4h",
+    "command": "git log -p -n 1",
+    "output": "commit 0f0313e497b622789ecd0706b4cbe84dc7819291\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   Tue Oct 13 08:11:38 2026 +0300\n\n    Restore required folder test filename\n\ndiff --git a/STRWEB/STRWEBRenamedTest.txt b/STRWEB/STRWEBTest.txt\nsimilarity index 100%\nrename from STRWEB/STRWEBRenamedTest.txt\nrename to STRWEB/STRWEBTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4h",
+    "command": "git log --stat -n 2",
+    "output": "commit 0f0313e497b622789ecd0706b4cbe84dc7819291\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   Tue Oct 13 08:11:38 2026 +0300\n\n    Restore required folder test filename\n\n STRWEB/{STRWEBRenamedTest.txt => STRWEBTest.txt} | 0\n 1 file changed, 0 insertions(+), 0 deletions(-)\n\ncommit b626023a89f248bbb787c18cf2e1d33f26c11232\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   Tue Oct 13 08:11:38 2026 +0300\n\n    Rename STRWEB test file\n\n STRWEB/{STRWEBTest.txt => STRWEBRenamedTest.txt} | 0\n 1 file changed, 0 insertions(+), 0 deletions(-)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4h",
+    "command": "git log --shortstat -n 2",
+    "output": "commit 0f0313e497b622789ecd0706b4cbe84dc7819291\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   Tue Oct 13 08:11:38 2026 +0300\n\n    Restore required folder test filename\n\n 1 file changed, 0 insertions(+), 0 deletions(-)\n\ncommit b626023a89f248bbb787c18cf2e1d33f26c11232\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   Tue Oct 13 08:11:38 2026 +0300\n\n    Rename STRWEB test file\n\n 1 file changed, 0 insertions(+), 0 deletions(-)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4h",
+    "command": "git log --name-only -n 2",
+    "output": "commit 0f0313e497b622789ecd0706b4cbe84dc7819291\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   Tue Oct 13 08:11:38 2026 +0300\n\n    Restore required folder test filename\n\nSTRWEB/STRWEBTest.txt\n\ncommit b626023a89f248bbb787c18cf2e1d33f26c11232\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   Tue Oct 13 08:11:38 2026 +0300\n\n    Rename STRWEB test file\n\nSTRWEB/STRWEBRenamedTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4h",
+    "command": "git log --name-status -n 2",
+    "output": "commit 0f0313e497b622789ecd0706b4cbe84dc7819291\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   Tue Oct 13 08:11:38 2026 +0300\n\n    Restore required folder test filename\n\nR100\tSTRWEB/STRWEBRenamedTest.txt\tSTRWEB/STRWEBTest.txt\n\ncommit b626023a89f248bbb787c18cf2e1d33f26c11232\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   Tue Oct 13 08:11:38 2026 +0300\n\n    Rename STRWEB test file\n\nR100\tSTRWEB/STRWEBTest.txt\tSTRWEB/STRWEBRenamedTest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4h",
+    "command": "git log --relative-date -n 2",
+    "output": "commit 0f0313e497b622789ecd0706b4cbe84dc7819291\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   1 second ago\n\n    Restore required folder test filename\n\ncommit b626023a89f248bbb787c18cf2e1d33f26c11232\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\nDate:   1 second ago\n\n    Rename STRWEB test file\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4h",
+    "command": "git log --pretty=format:'%h %an %s' -n 3",
+    "output": "0f0313e Ромейко Матвей Дмитриевич Restore required folder test filename\nb626023 Ромейко Матвей Дмитриевич Rename STRWEB test file\n27641c8 Ромейко Матвей Дмитриевич Remove single file and temporary file group",
+    "exit_code": 0
+  },
+  {
+    "section": "4h",
+    "command": "git log --graph --oneline --all",
+    "output": "* 5fcb88b Keep folders for branch IGI\n| * b2a6a0a Keep folders for branch IGI-IPR1\n|/  \n| * 7d3fd9d Keep folders for branch IGI-KR1\n|/  \n| * f3b5d7e Keep folders for branch STRWEB\n|/  \n| * 2a4fcfd Keep folders for branch STRWEB-IPR1\n|/  \n| * 64293a7 Keep folders for branch STRWEB-KR1\n|/  \n* 0f0313e Restore required folder test filename\n* b626023 Rename STRWEB test file\n* 27641c8 Remove single file and temporary file group\n* f65cdab Add single file and temporary file group\n* d650baa Edit IGI test file\n* cbd294c Create variant 8 folder structure and submodule\n* 0874187 Initial commit\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4i",
+    "command": "git log --all --format='%H' | while read commit; do git show --format=short --stat --patch \"$commit\"; done",
+    "output": "commit 5fcb88b3611c1900a4943538f5f7f98ef65df47c\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Keep folders for branch IGI\n---\n STRWEB/IPR1/IPR1Test.txt | 1 -\n STRWEB/KR1/KR1Test.txt   | 1 -\n STRWEB/STRWEBTest.txt    | 1 -\n 3 files changed, 3 deletions(-)\n\ndiff --git a/STRWEB/IPR1/IPR1Test.txt b/STRWEB/IPR1/IPR1Test.txt\ndeleted file mode 100644\nindex f55d030..0000000\n--- a/STRWEB/IPR1/IPR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB/IPR1\ndiff --git a/STRWEB/KR1/KR1Test.txt b/STRWEB/KR1/KR1Test.txt\ndeleted file mode 100644\nindex c39f3c0..0000000\n--- a/STRWEB/KR1/KR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB/KR1\ndiff --git a/STRWEB/STRWEBTest.txt b/STRWEB/STRWEBTest.txt\ndeleted file mode 100644\nindex 03c9c04..0000000\n--- a/STRWEB/STRWEBTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB\ncommit b2a6a0a0ad6106087518c5e3c85b66028450f548\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Keep folders for branch IGI-IPR1\n---\n .gitmodules                             | 3 ---\n IGI/KR1/KR1Test.txt                     | 1 -\n IGI/KR1/bin/700/700Test.txt             | 1 -\n IGI/KR1/bin/700/which/700/700Test.txt   | 1 -\n IGI/KR1/bin/700/which/whichTest.txt     | 1 -\n IGI/KR1/bin/binTest.txt                 | 1 -\n IGI/KR1/foo/441/441Test.txt             | 1 -\n IGI/KR1/foo/441/bar/664/664Test.txt     | 1 -\n IGI/KR1/foo/441/bar/barTest.txt         | 1 -\n IGI/KR1/foo/441/baz/244/244Test.txt     | 1 -\n IGI/KR1/foo/441/baz/244/readme.txt      | 1 -\n IGI/KR1/foo/441/baz/bazTest.txt         | 1 -\n IGI/KR1/foo/441/example/200/200Test.txt | 1 -\n IGI/KR1/foo/441/example/exampleTest.txt | 1 -\n IGI/KR1/foo/441/test.txt                | 1 -\n IGI/KR1/foo/fooTest.txt                 | 1 -\n IGI/KR1/geometric_lib                   | 1 -\n STRWEB/IPR1/IPR1Test.txt                | 1 -\n STRWEB/KR1/KR1Test.txt                  | 1 -\n STRWEB/STRWEBTest.txt                   | 1 -\n 20 files changed, 22 deletions(-)\n\ndiff --git a/.gitmodules b/.gitmodules\nindex 7a34b08..e69de29 100644\n--- a/.gitmodules\n+++ b/.gitmodules\n@@ -1,3 +0,0 @@\n-[submodule \"IGI/KR1/geometric_lib\"]\n-\tpath = IGI/KR1/geometric_lib\n-\turl = https://github.com/smartiqaorg/geometric_lib.git\ndiff --git a/IGI/KR1/KR1Test.txt b/IGI/KR1/KR1Test.txt\ndeleted file mode 100644\nindex 7a07cdc..0000000\n--- a/IGI/KR1/KR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1\ndiff --git a/IGI/KR1/bin/700/700Test.txt b/IGI/KR1/bin/700/700Test.txt\ndeleted file mode 100644\nindex 63c9c06..0000000\n--- a/IGI/KR1/bin/700/700Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700\ndiff --git a/IGI/KR1/bin/700/which/700/700Test.txt b/IGI/KR1/bin/700/which/700/700Test.txt\ndeleted file mode 100644\nindex 8a162fa..0000000\n--- a/IGI/KR1/bin/700/which/700/700Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700/which/700\ndiff --git a/IGI/KR1/bin/700/which/whichTest.txt b/IGI/KR1/bin/700/which/whichTest.txt\ndeleted file mode 100644\nindex 43d1651..0000000\n--- a/IGI/KR1/bin/700/which/whichTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700/which\ndiff --git a/IGI/KR1/bin/binTest.txt b/IGI/KR1/bin/binTest.txt\ndeleted file mode 100644\nindex 3d1b7a9..0000000\n--- a/IGI/KR1/bin/binTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin\ndiff --git a/IGI/KR1/foo/441/441Test.txt b/IGI/KR1/foo/441/441Test.txt\ndeleted file mode 100644\nindex 2b9ace8..0000000\n--- a/IGI/KR1/foo/441/441Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441\ndiff --git a/IGI/KR1/foo/441/bar/664/664Test.txt b/IGI/KR1/foo/441/bar/664/664Test.txt\ndeleted file mode 100644\nindex bed0799..0000000\n--- a/IGI/KR1/foo/441/bar/664/664Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/bar/664\ndiff --git a/IGI/KR1/foo/441/bar/barTest.txt b/IGI/KR1/foo/441/bar/barTest.txt\ndeleted file mode 100644\nindex e7c1a69..0000000\n--- a/IGI/KR1/foo/441/bar/barTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/bar\ndiff --git a/IGI/KR1/foo/441/baz/244/244Test.txt b/IGI/KR1/foo/441/baz/244/244Test.txt\ndeleted file mode 100644\nindex 5ed50aa..0000000\n--- a/IGI/KR1/foo/441/baz/244/244Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/baz/244\ndiff --git a/IGI/KR1/foo/441/baz/244/readme.txt b/IGI/KR1/foo/441/baz/244/readme.txt\ndeleted file mode 100644\nindex 617de7e..0000000\n--- a/IGI/KR1/foo/441/baz/244/readme.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-411\ndiff --git a/IGI/KR1/foo/441/baz/bazTest.txt b/IGI/KR1/foo/441/baz/bazTest.txt\ndeleted file mode 100644\nindex 5f662fb..0000000\n--- a/IGI/KR1/foo/441/baz/bazTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/baz\ndiff --git a/IGI/KR1/foo/441/example/200/200Test.txt b/IGI/KR1/foo/441/example/200/200Test.txt\ndeleted file mode 100644\nindex 3d3ab07..0000000\n--- a/IGI/KR1/foo/441/example/200/200Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/example/200\ndiff --git a/IGI/KR1/foo/441/example/exampleTest.txt b/IGI/KR1/foo/441/example/exampleTest.txt\ndeleted file mode 100644\nindex cf6ffd4..0000000\n--- a/IGI/KR1/foo/441/example/exampleTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/example\ndiff --git a/IGI/KR1/foo/441/test.txt b/IGI/KR1/foo/441/test.txt\ndeleted file mode 100644\nindex 8f087a3..0000000\n--- a/IGI/KR1/foo/441/test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-000\ndiff --git a/IGI/KR1/foo/fooTest.txt b/IGI/KR1/foo/fooTest.txt\ndeleted file mode 100644\nindex ec4c75d..0000000\n--- a/IGI/KR1/foo/fooTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo\ndiff --git a/IGI/KR1/geometric_lib b/IGI/KR1/geometric_lib\ndeleted file mode 160000\nindex d078c8d..0000000\n--- a/IGI/KR1/geometric_lib\n+++ /dev/null\n@@ -1 +0,0 @@\n-Subproject commit d078c8d9ee6155f3cb0e577d28d337b791de28e2\ndiff --git a/STRWEB/IPR1/IPR1Test.txt b/STRWEB/IPR1/IPR1Test.txt\ndeleted file mode 100644\nindex f55d030..0000000\n--- a/STRWEB/IPR1/IPR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB/IPR1\ndiff --git a/STRWEB/KR1/KR1Test.txt b/STRWEB/KR1/KR1Test.txt\ndeleted file mode 100644\nindex c39f3c0..0000000\n--- a/STRWEB/KR1/KR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB/KR1\ndiff --git a/STRWEB/STRWEBTest.txt b/STRWEB/STRWEBTest.txt\ndeleted file mode 100644\nindex 03c9c04..0000000\n--- a/STRWEB/STRWEBTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB\ncommit 7d3fd9d052410dcf7cb17e47d54dbf2dad88c95a\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Keep folders for branch IGI-KR1\n---\n IGI/IPR1/IPR1Test.txt    | 1 -\n STRWEB/IPR1/IPR1Test.txt | 1 -\n STRWEB/KR1/KR1Test.txt   | 1 -\n STRWEB/STRWEBTest.txt    | 1 -\n 4 files changed, 4 deletions(-)\n\ndiff --git a/IGI/IPR1/IPR1Test.txt b/IGI/IPR1/IPR1Test.txt\ndeleted file mode 100644\nindex 4d24ea6..0000000\n--- a/IGI/IPR1/IPR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/IPR1\ndiff --git a/STRWEB/IPR1/IPR1Test.txt b/STRWEB/IPR1/IPR1Test.txt\ndeleted file mode 100644\nindex f55d030..0000000\n--- a/STRWEB/IPR1/IPR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB/IPR1\ndiff --git a/STRWEB/KR1/KR1Test.txt b/STRWEB/KR1/KR1Test.txt\ndeleted file mode 100644\nindex c39f3c0..0000000\n--- a/STRWEB/KR1/KR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB/KR1\ndiff --git a/STRWEB/STRWEBTest.txt b/STRWEB/STRWEBTest.txt\ndeleted file mode 100644\nindex 03c9c04..0000000\n--- a/STRWEB/STRWEBTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB\ncommit f3b5d7e02a8470fbdd6c97b29a080048a225e51d\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Keep folders for branch STRWEB\n---\n .gitmodules                             | 3 ---\n IGI/IGITest.txt                         | 2 --\n IGI/IPR1/IPR1Test.txt                   | 1 -\n IGI/KR1/KR1Test.txt                     | 1 -\n IGI/KR1/bin/700/700Test.txt             | 1 -\n IGI/KR1/bin/700/which/700/700Test.txt   | 1 -\n IGI/KR1/bin/700/which/whichTest.txt     | 1 -\n IGI/KR1/bin/binTest.txt                 | 1 -\n IGI/KR1/foo/441/441Test.txt             | 1 -\n IGI/KR1/foo/441/bar/664/664Test.txt     | 1 -\n IGI/KR1/foo/441/bar/barTest.txt         | 1 -\n IGI/KR1/foo/441/baz/244/244Test.txt     | 1 -\n IGI/KR1/foo/441/baz/244/readme.txt      | 1 -\n IGI/KR1/foo/441/baz/bazTest.txt         | 1 -\n IGI/KR1/foo/441/example/200/200Test.txt | 1 -\n IGI/KR1/foo/441/example/exampleTest.txt | 1 -\n IGI/KR1/foo/441/test.txt                | 1 -\n IGI/KR1/foo/fooTest.txt                 | 1 -\n IGI/KR1/geometric_lib                   | 1 -\n 19 files changed, 22 deletions(-)\n\ndiff --git a/.gitmodules b/.gitmodules\nindex 7a34b08..e69de29 100644\n--- a/.gitmodules\n+++ b/.gitmodules\n@@ -1,3 +0,0 @@\n-[submodule \"IGI/KR1/geometric_lib\"]\n-\tpath = IGI/KR1/geometric_lib\n-\turl = https://github.com/smartiqaorg/geometric_lib.git\ndiff --git a/IGI/IGITest.txt b/IGI/IGITest.txt\ndeleted file mode 100644\nindex c638f1c..0000000\n--- a/IGI/IGITest.txt\n+++ /dev/null\n@@ -1,2 +0,0 @@\n-Test file for IGI\n-Edited after staging\ndiff --git a/IGI/IPR1/IPR1Test.txt b/IGI/IPR1/IPR1Test.txt\ndeleted file mode 100644\nindex 4d24ea6..0000000\n--- a/IGI/IPR1/IPR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/IPR1\ndiff --git a/IGI/KR1/KR1Test.txt b/IGI/KR1/KR1Test.txt\ndeleted file mode 100644\nindex 7a07cdc..0000000\n--- a/IGI/KR1/KR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1\ndiff --git a/IGI/KR1/bin/700/700Test.txt b/IGI/KR1/bin/700/700Test.txt\ndeleted file mode 100644\nindex 63c9c06..0000000\n--- a/IGI/KR1/bin/700/700Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700\ndiff --git a/IGI/KR1/bin/700/which/700/700Test.txt b/IGI/KR1/bin/700/which/700/700Test.txt\ndeleted file mode 100644\nindex 8a162fa..0000000\n--- a/IGI/KR1/bin/700/which/700/700Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700/which/700\ndiff --git a/IGI/KR1/bin/700/which/whichTest.txt b/IGI/KR1/bin/700/which/whichTest.txt\ndeleted file mode 100644\nindex 43d1651..0000000\n--- a/IGI/KR1/bin/700/which/whichTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700/which\ndiff --git a/IGI/KR1/bin/binTest.txt b/IGI/KR1/bin/binTest.txt\ndeleted file mode 100644\nindex 3d1b7a9..0000000\n--- a/IGI/KR1/bin/binTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin\ndiff --git a/IGI/KR1/foo/441/441Test.txt b/IGI/KR1/foo/441/441Test.txt\ndeleted file mode 100644\nindex 2b9ace8..0000000\n--- a/IGI/KR1/foo/441/441Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441\ndiff --git a/IGI/KR1/foo/441/bar/664/664Test.txt b/IGI/KR1/foo/441/bar/664/664Test.txt\ndeleted file mode 100644\nindex bed0799..0000000\n--- a/IGI/KR1/foo/441/bar/664/664Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/bar/664\ndiff --git a/IGI/KR1/foo/441/bar/barTest.txt b/IGI/KR1/foo/441/bar/barTest.txt\ndeleted file mode 100644\nindex e7c1a69..0000000\n--- a/IGI/KR1/foo/441/bar/barTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/bar\ndiff --git a/IGI/KR1/foo/441/baz/244/244Test.txt b/IGI/KR1/foo/441/baz/244/244Test.txt\ndeleted file mode 100644\nindex 5ed50aa..0000000\n--- a/IGI/KR1/foo/441/baz/244/244Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/baz/244\ndiff --git a/IGI/KR1/foo/441/baz/244/readme.txt b/IGI/KR1/foo/441/baz/244/readme.txt\ndeleted file mode 100644\nindex 617de7e..0000000\n--- a/IGI/KR1/foo/441/baz/244/readme.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-411\ndiff --git a/IGI/KR1/foo/441/baz/bazTest.txt b/IGI/KR1/foo/441/baz/bazTest.txt\ndeleted file mode 100644\nindex 5f662fb..0000000\n--- a/IGI/KR1/foo/441/baz/bazTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/baz\ndiff --git a/IGI/KR1/foo/441/example/200/200Test.txt b/IGI/KR1/foo/441/example/200/200Test.txt\ndeleted file mode 100644\nindex 3d3ab07..0000000\n--- a/IGI/KR1/foo/441/example/200/200Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/example/200\ndiff --git a/IGI/KR1/foo/441/example/exampleTest.txt b/IGI/KR1/foo/441/example/exampleTest.txt\ndeleted file mode 100644\nindex cf6ffd4..0000000\n--- a/IGI/KR1/foo/441/example/exampleTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/example\ndiff --git a/IGI/KR1/foo/441/test.txt b/IGI/KR1/foo/441/test.txt\ndeleted file mode 100644\nindex 8f087a3..0000000\n--- a/IGI/KR1/foo/441/test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-000\ndiff --git a/IGI/KR1/foo/fooTest.txt b/IGI/KR1/foo/fooTest.txt\ndeleted file mode 100644\nindex ec4c75d..0000000\n--- a/IGI/KR1/foo/fooTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo\ndiff --git a/IGI/KR1/geometric_lib b/IGI/KR1/geometric_lib\ndeleted file mode 160000\nindex d078c8d..0000000\n--- a/IGI/KR1/geometric_lib\n+++ /dev/null\n@@ -1 +0,0 @@\n-Subproject commit d078c8d9ee6155f3cb0e577d28d337b791de28e2\ncommit 2a4fcfdc8e714c41fe5f35d2ca8d1d0c9867c34a\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Keep folders for branch STRWEB-IPR1\n---\n .gitmodules                             | 3 ---\n IGI/IGITest.txt                         | 2 --\n IGI/IPR1/IPR1Test.txt                   | 1 -\n IGI/KR1/KR1Test.txt                     | 1 -\n IGI/KR1/bin/700/700Test.txt             | 1 -\n IGI/KR1/bin/700/which/700/700Test.txt   | 1 -\n IGI/KR1/bin/700/which/whichTest.txt     | 1 -\n IGI/KR1/bin/binTest.txt                 | 1 -\n IGI/KR1/foo/441/441Test.txt             | 1 -\n IGI/KR1/foo/441/bar/664/664Test.txt     | 1 -\n IGI/KR1/foo/441/bar/barTest.txt         | 1 -\n IGI/KR1/foo/441/baz/244/244Test.txt     | 1 -\n IGI/KR1/foo/441/baz/244/readme.txt      | 1 -\n IGI/KR1/foo/441/baz/bazTest.txt         | 1 -\n IGI/KR1/foo/441/example/200/200Test.txt | 1 -\n IGI/KR1/foo/441/example/exampleTest.txt | 1 -\n IGI/KR1/foo/441/test.txt                | 1 -\n IGI/KR1/foo/fooTest.txt                 | 1 -\n IGI/KR1/geometric_lib                   | 1 -\n STRWEB/KR1/KR1Test.txt                  | 1 -\n 20 files changed, 23 deletions(-)\n\ndiff --git a/.gitmodules b/.gitmodules\nindex 7a34b08..e69de29 100644\n--- a/.gitmodules\n+++ b/.gitmodules\n@@ -1,3 +0,0 @@\n-[submodule \"IGI/KR1/geometric_lib\"]\n-\tpath = IGI/KR1/geometric_lib\n-\turl = https://github.com/smartiqaorg/geometric_lib.git\ndiff --git a/IGI/IGITest.txt b/IGI/IGITest.txt\ndeleted file mode 100644\nindex c638f1c..0000000\n--- a/IGI/IGITest.txt\n+++ /dev/null\n@@ -1,2 +0,0 @@\n-Test file for IGI\n-Edited after staging\ndiff --git a/IGI/IPR1/IPR1Test.txt b/IGI/IPR1/IPR1Test.txt\ndeleted file mode 100644\nindex 4d24ea6..0000000\n--- a/IGI/IPR1/IPR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/IPR1\ndiff --git a/IGI/KR1/KR1Test.txt b/IGI/KR1/KR1Test.txt\ndeleted file mode 100644\nindex 7a07cdc..0000000\n--- a/IGI/KR1/KR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1\ndiff --git a/IGI/KR1/bin/700/700Test.txt b/IGI/KR1/bin/700/700Test.txt\ndeleted file mode 100644\nindex 63c9c06..0000000\n--- a/IGI/KR1/bin/700/700Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700\ndiff --git a/IGI/KR1/bin/700/which/700/700Test.txt b/IGI/KR1/bin/700/which/700/700Test.txt\ndeleted file mode 100644\nindex 8a162fa..0000000\n--- a/IGI/KR1/bin/700/which/700/700Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700/which/700\ndiff --git a/IGI/KR1/bin/700/which/whichTest.txt b/IGI/KR1/bin/700/which/whichTest.txt\ndeleted file mode 100644\nindex 43d1651..0000000\n--- a/IGI/KR1/bin/700/which/whichTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700/which\ndiff --git a/IGI/KR1/bin/binTest.txt b/IGI/KR1/bin/binTest.txt\ndeleted file mode 100644\nindex 3d1b7a9..0000000\n--- a/IGI/KR1/bin/binTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin\ndiff --git a/IGI/KR1/foo/441/441Test.txt b/IGI/KR1/foo/441/441Test.txt\ndeleted file mode 100644\nindex 2b9ace8..0000000\n--- a/IGI/KR1/foo/441/441Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441\ndiff --git a/IGI/KR1/foo/441/bar/664/664Test.txt b/IGI/KR1/foo/441/bar/664/664Test.txt\ndeleted file mode 100644\nindex bed0799..0000000\n--- a/IGI/KR1/foo/441/bar/664/664Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/bar/664\ndiff --git a/IGI/KR1/foo/441/bar/barTest.txt b/IGI/KR1/foo/441/bar/barTest.txt\ndeleted file mode 100644\nindex e7c1a69..0000000\n--- a/IGI/KR1/foo/441/bar/barTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/bar\ndiff --git a/IGI/KR1/foo/441/baz/244/244Test.txt b/IGI/KR1/foo/441/baz/244/244Test.txt\ndeleted file mode 100644\nindex 5ed50aa..0000000\n--- a/IGI/KR1/foo/441/baz/244/244Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/baz/244\ndiff --git a/IGI/KR1/foo/441/baz/244/readme.txt b/IGI/KR1/foo/441/baz/244/readme.txt\ndeleted file mode 100644\nindex 617de7e..0000000\n--- a/IGI/KR1/foo/441/baz/244/readme.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-411\ndiff --git a/IGI/KR1/foo/441/baz/bazTest.txt b/IGI/KR1/foo/441/baz/bazTest.txt\ndeleted file mode 100644\nindex 5f662fb..0000000\n--- a/IGI/KR1/foo/441/baz/bazTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/baz\ndiff --git a/IGI/KR1/foo/441/example/200/200Test.txt b/IGI/KR1/foo/441/example/200/200Test.txt\ndeleted file mode 100644\nindex 3d3ab07..0000000\n--- a/IGI/KR1/foo/441/example/200/200Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/example/200\ndiff --git a/IGI/KR1/foo/441/example/exampleTest.txt b/IGI/KR1/foo/441/example/exampleTest.txt\ndeleted file mode 100644\nindex cf6ffd4..0000000\n--- a/IGI/KR1/foo/441/example/exampleTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/example\ndiff --git a/IGI/KR1/foo/441/test.txt b/IGI/KR1/foo/441/test.txt\ndeleted file mode 100644\nindex 8f087a3..0000000\n--- a/IGI/KR1/foo/441/test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-000\ndiff --git a/IGI/KR1/foo/fooTest.txt b/IGI/KR1/foo/fooTest.txt\ndeleted file mode 100644\nindex ec4c75d..0000000\n--- a/IGI/KR1/foo/fooTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo\ndiff --git a/IGI/KR1/geometric_lib b/IGI/KR1/geometric_lib\ndeleted file mode 160000\nindex d078c8d..0000000\n--- a/IGI/KR1/geometric_lib\n+++ /dev/null\n@@ -1 +0,0 @@\n-Subproject commit d078c8d9ee6155f3cb0e577d28d337b791de28e2\ndiff --git a/STRWEB/KR1/KR1Test.txt b/STRWEB/KR1/KR1Test.txt\ndeleted file mode 100644\nindex c39f3c0..0000000\n--- a/STRWEB/KR1/KR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB/KR1\ncommit 64293a739e65f1345e763701c5f073d8b9b0dcb0\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Keep folders for branch STRWEB-KR1\n---\n .gitmodules                             | 3 ---\n IGI/IGITest.txt                         | 2 --\n IGI/IPR1/IPR1Test.txt                   | 1 -\n IGI/KR1/KR1Test.txt                     | 1 -\n IGI/KR1/bin/700/700Test.txt             | 1 -\n IGI/KR1/bin/700/which/700/700Test.txt   | 1 -\n IGI/KR1/bin/700/which/whichTest.txt     | 1 -\n IGI/KR1/bin/binTest.txt                 | 1 -\n IGI/KR1/foo/441/441Test.txt             | 1 -\n IGI/KR1/foo/441/bar/664/664Test.txt     | 1 -\n IGI/KR1/foo/441/bar/barTest.txt         | 1 -\n IGI/KR1/foo/441/baz/244/244Test.txt     | 1 -\n IGI/KR1/foo/441/baz/244/readme.txt      | 1 -\n IGI/KR1/foo/441/baz/bazTest.txt         | 1 -\n IGI/KR1/foo/441/example/200/200Test.txt | 1 -\n IGI/KR1/foo/441/example/exampleTest.txt | 1 -\n IGI/KR1/foo/441/test.txt                | 1 -\n IGI/KR1/foo/fooTest.txt                 | 1 -\n IGI/KR1/geometric_lib                   | 1 -\n STRWEB/IPR1/IPR1Test.txt                | 1 -\n 20 files changed, 23 deletions(-)\n\ndiff --git a/.gitmodules b/.gitmodules\nindex 7a34b08..e69de29 100644\n--- a/.gitmodules\n+++ b/.gitmodules\n@@ -1,3 +0,0 @@\n-[submodule \"IGI/KR1/geometric_lib\"]\n-\tpath = IGI/KR1/geometric_lib\n-\turl = https://github.com/smartiqaorg/geometric_lib.git\ndiff --git a/IGI/IGITest.txt b/IGI/IGITest.txt\ndeleted file mode 100644\nindex c638f1c..0000000\n--- a/IGI/IGITest.txt\n+++ /dev/null\n@@ -1,2 +0,0 @@\n-Test file for IGI\n-Edited after staging\ndiff --git a/IGI/IPR1/IPR1Test.txt b/IGI/IPR1/IPR1Test.txt\ndeleted file mode 100644\nindex 4d24ea6..0000000\n--- a/IGI/IPR1/IPR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/IPR1\ndiff --git a/IGI/KR1/KR1Test.txt b/IGI/KR1/KR1Test.txt\ndeleted file mode 100644\nindex 7a07cdc..0000000\n--- a/IGI/KR1/KR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1\ndiff --git a/IGI/KR1/bin/700/700Test.txt b/IGI/KR1/bin/700/700Test.txt\ndeleted file mode 100644\nindex 63c9c06..0000000\n--- a/IGI/KR1/bin/700/700Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700\ndiff --git a/IGI/KR1/bin/700/which/700/700Test.txt b/IGI/KR1/bin/700/which/700/700Test.txt\ndeleted file mode 100644\nindex 8a162fa..0000000\n--- a/IGI/KR1/bin/700/which/700/700Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700/which/700\ndiff --git a/IGI/KR1/bin/700/which/whichTest.txt b/IGI/KR1/bin/700/which/whichTest.txt\ndeleted file mode 100644\nindex 43d1651..0000000\n--- a/IGI/KR1/bin/700/which/whichTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin/700/which\ndiff --git a/IGI/KR1/bin/binTest.txt b/IGI/KR1/bin/binTest.txt\ndeleted file mode 100644\nindex 3d1b7a9..0000000\n--- a/IGI/KR1/bin/binTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/bin\ndiff --git a/IGI/KR1/foo/441/441Test.txt b/IGI/KR1/foo/441/441Test.txt\ndeleted file mode 100644\nindex 2b9ace8..0000000\n--- a/IGI/KR1/foo/441/441Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441\ndiff --git a/IGI/KR1/foo/441/bar/664/664Test.txt b/IGI/KR1/foo/441/bar/664/664Test.txt\ndeleted file mode 100644\nindex bed0799..0000000\n--- a/IGI/KR1/foo/441/bar/664/664Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/bar/664\ndiff --git a/IGI/KR1/foo/441/bar/barTest.txt b/IGI/KR1/foo/441/bar/barTest.txt\ndeleted file mode 100644\nindex e7c1a69..0000000\n--- a/IGI/KR1/foo/441/bar/barTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/bar\ndiff --git a/IGI/KR1/foo/441/baz/244/244Test.txt b/IGI/KR1/foo/441/baz/244/244Test.txt\ndeleted file mode 100644\nindex 5ed50aa..0000000\n--- a/IGI/KR1/foo/441/baz/244/244Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/baz/244\ndiff --git a/IGI/KR1/foo/441/baz/244/readme.txt b/IGI/KR1/foo/441/baz/244/readme.txt\ndeleted file mode 100644\nindex 617de7e..0000000\n--- a/IGI/KR1/foo/441/baz/244/readme.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-411\ndiff --git a/IGI/KR1/foo/441/baz/bazTest.txt b/IGI/KR1/foo/441/baz/bazTest.txt\ndeleted file mode 100644\nindex 5f662fb..0000000\n--- a/IGI/KR1/foo/441/baz/bazTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/baz\ndiff --git a/IGI/KR1/foo/441/example/200/200Test.txt b/IGI/KR1/foo/441/example/200/200Test.txt\ndeleted file mode 100644\nindex 3d3ab07..0000000\n--- a/IGI/KR1/foo/441/example/200/200Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/example/200\ndiff --git a/IGI/KR1/foo/441/example/exampleTest.txt b/IGI/KR1/foo/441/example/exampleTest.txt\ndeleted file mode 100644\nindex cf6ffd4..0000000\n--- a/IGI/KR1/foo/441/example/exampleTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo/441/example\ndiff --git a/IGI/KR1/foo/441/test.txt b/IGI/KR1/foo/441/test.txt\ndeleted file mode 100644\nindex 8f087a3..0000000\n--- a/IGI/KR1/foo/441/test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-000\ndiff --git a/IGI/KR1/foo/fooTest.txt b/IGI/KR1/foo/fooTest.txt\ndeleted file mode 100644\nindex ec4c75d..0000000\n--- a/IGI/KR1/foo/fooTest.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for IGI/KR1/foo\ndiff --git a/IGI/KR1/geometric_lib b/IGI/KR1/geometric_lib\ndeleted file mode 160000\nindex d078c8d..0000000\n--- a/IGI/KR1/geometric_lib\n+++ /dev/null\n@@ -1 +0,0 @@\n-Subproject commit d078c8d9ee6155f3cb0e577d28d337b791de28e2\ndiff --git a/STRWEB/IPR1/IPR1Test.txt b/STRWEB/IPR1/IPR1Test.txt\ndeleted file mode 100644\nindex f55d030..0000000\n--- a/STRWEB/IPR1/IPR1Test.txt\n+++ /dev/null\n@@ -1 +0,0 @@\n-Test file for STRWEB/IPR1\ncommit 0f0313e497b622789ecd0706b4cbe84dc7819291\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Restore required folder test filename\n---\n STRWEB/{STRWEBRenamedTest.txt => STRWEBTest.txt} | 0\n 1 file changed, 0 insertions(+), 0 deletions(-)\n\ndiff --git a/STRWEB/STRWEBRenamedTest.txt b/STRWEB/STRWEBTest.txt\nsimilarity index 100%\nrename from STRWEB/STRWEBRenamedTest.txt\nrename to STRWEB/STRWEBTest.txt\ncommit b626023a89f248bbb787c18cf2e1d33f26c11232\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Rename STRWEB test file\n---\n STRWEB/{STRWEBTest.txt => STRWEBRenamedTest.txt} | 0\n 1 file changed, 0 insertions(+), 0 deletions(-)\n\ndiff --git a/STRWEB/STRWEBTest.txt b/STRWEB/STRWEBRenamedTest.txt\nsimilarity index 100%\nrename from STRWEB/STRWEBTest.txt\nrename to STRWEB/STRWEBRenamedTest.txt\ncommit 27641c839a3f6c0ff6844645d8de69d57d3b7444\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Remove single file and temporary file group\n---\n first.tmp  | 1 -\n second.tmp | 1 -\n single.tmp | 1 -\n 3 files changed, 3 deletions(-)\n\ndiff --git a/first.tmp b/first.tmp\ndeleted file mode 100644\nindex 9c59e24..0000000\n--- a/first.tmp\n+++ /dev/null\n@@ -1 +0,0 @@\n-first\ndiff --git a/second.tmp b/second.tmp\ndeleted file mode 100644\nindex e019be0..0000000\n--- a/second.tmp\n+++ /dev/null\n@@ -1 +0,0 @@\n-second\ndiff --git a/single.tmp b/single.tmp\ndeleted file mode 100644\nindex 2be3b08..0000000\n--- a/single.tmp\n+++ /dev/null\n@@ -1 +0,0 @@\n-single temporary file\ncommit f65cdab4af0753e37698951c67c84d84ecc6a01a\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Add single file and temporary file group\n---\n first.tmp  | 1 +\n second.tmp | 1 +\n single.tmp | 1 +\n 3 files changed, 3 insertions(+)\n\ndiff --git a/first.tmp b/first.tmp\nnew file mode 100644\nindex 0000000..9c59e24\n--- /dev/null\n+++ b/first.tmp\n@@ -0,0 +1 @@\n+first\ndiff --git a/second.tmp b/second.tmp\nnew file mode 100644\nindex 0000000..e019be0\n--- /dev/null\n+++ b/second.tmp\n@@ -0,0 +1 @@\n+second\ndiff --git a/single.tmp b/single.tmp\nnew file mode 100644\nindex 0000000..2be3b08\n--- /dev/null\n+++ b/single.tmp\n@@ -0,0 +1 @@\n+single temporary file\ncommit d650baa4aba31ddf3651d6610c99f1928d605bc2\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Edit IGI test file\n---\n IGI/IGITest.txt | 1 +\n 1 file changed, 1 insertion(+)\n\ndiff --git a/IGI/IGITest.txt b/IGI/IGITest.txt\nindex afa834e..c638f1c 100644\n--- a/IGI/IGITest.txt\n+++ b/IGI/IGITest.txt\n@@ -1 +1,2 @@\n Test file for IGI\n+Edited after staging\ncommit cbd294cb84465da624a7ad92f44e7d3dbe17bf6d\nAuthor: Ромейко Матвей Дмитриевич <student@example.invalid>\n\n    Create variant 8 folder structure and submodule\n---\n .gitmodules                                 | 3 +++\n GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt | 1 +\n IGI/IGITest.txt                             | 1 +\n IGI/IPR1/IPR1Test.txt                       | 1 +\n IGI/KR1/KR1Test.txt                         | 1 +\n IGI/KR1/bin/700/700Test.txt                 | 1 +\n IGI/KR1/bin/700/which/700/700Test.txt       | 1 +\n IGI/KR1/bin/700/which/whichTest.txt         | 1 +\n IGI/KR1/bin/binTest.txt                     | 1 +\n IGI/KR1/foo/441/441Test.txt                 | 1 +\n IGI/KR1/foo/441/bar/664/664Test.txt         | 1 +\n IGI/KR1/foo/441/bar/barTest.txt             | 1 +\n IGI/KR1/foo/441/baz/244/244Test.txt         | 1 +\n IGI/KR1/foo/441/baz/244/readme.txt          | 1 +\n IGI/KR1/foo/441/baz/bazTest.txt             | 1 +\n IGI/KR1/foo/441/example/200/200Test.txt     | 1 +\n IGI/KR1/foo/441/example/exampleTest.txt     | 1 +\n IGI/KR1/foo/441/test.txt                    | 1 +\n IGI/KR1/foo/fooTest.txt                     | 1 +\n IGI/KR1/geometric_lib                       | 1 +\n STRWEB/IPR1/IPR1Test.txt                    | 1 +\n STRWEB/KR1/KR1Test.txt                      | 1 +\n STRWEB/STRWEBTest.txt                       | 1 +\n 23 files changed, 25 insertions(+)\n\ndiff --git a/.gitmodules b/.gitmodules\nnew file mode 100644\nindex 0000000..7a34b08\n--- /dev/null\n+++ b/.gitmodules\n@@ -0,0 +1,3 @@\n+[submodule \"IGI/KR1/geometric_lib\"]\n+\tpath = IGI/KR1/geometric_lib\n+\turl = https://github.com/smartiqaorg/geometric_lib.git\ndiff --git a/GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt b/GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\nnew file mode 100644\nindex 0000000..1136a7b\n--- /dev/null\n+++ b/GROUP_NUMBER_ROMEIKO_NUMBER_IN_LISTTest.txt\n@@ -0,0 +1 @@\n+Repository root test\ndiff --git a/IGI/IGITest.txt b/IGI/IGITest.txt\nnew file mode 100644\nindex 0000000..afa834e\n--- /dev/null\n+++ b/IGI/IGITest.txt\n@@ -0,0 +1 @@\n+Test file for IGI\ndiff --git a/IGI/IPR1/IPR1Test.txt b/IGI/IPR1/IPR1Test.txt\nnew file mode 100644\nindex 0000000..4d24ea6\n--- /dev/null\n+++ b/IGI/IPR1/IPR1Test.txt\n@@ -0,0 +1 @@\n+Test file for IGI/IPR1\ndiff --git a/IGI/KR1/KR1Test.txt b/IGI/KR1/KR1Test.txt\nnew file mode 100644\nindex 0000000..7a07cdc\n--- /dev/null\n+++ b/IGI/KR1/KR1Test.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1\ndiff --git a/IGI/KR1/bin/700/700Test.txt b/IGI/KR1/bin/700/700Test.txt\nnew file mode 100644\nindex 0000000..63c9c06\n--- /dev/null\n+++ b/IGI/KR1/bin/700/700Test.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/bin/700\ndiff --git a/IGI/KR1/bin/700/which/700/700Test.txt b/IGI/KR1/bin/700/which/700/700Test.txt\nnew file mode 100644\nindex 0000000..8a162fa\n--- /dev/null\n+++ b/IGI/KR1/bin/700/which/700/700Test.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/bin/700/which/700\ndiff --git a/IGI/KR1/bin/700/which/whichTest.txt b/IGI/KR1/bin/700/which/whichTest.txt\nnew file mode 100644\nindex 0000000..43d1651\n--- /dev/null\n+++ b/IGI/KR1/bin/700/which/whichTest.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/bin/700/which\ndiff --git a/IGI/KR1/bin/binTest.txt b/IGI/KR1/bin/binTest.txt\nnew file mode 100644\nindex 0000000..3d1b7a9\n--- /dev/null\n+++ b/IGI/KR1/bin/binTest.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/bin\ndiff --git a/IGI/KR1/foo/441/441Test.txt b/IGI/KR1/foo/441/441Test.txt\nnew file mode 100644\nindex 0000000..2b9ace8\n--- /dev/null\n+++ b/IGI/KR1/foo/441/441Test.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/foo/441\ndiff --git a/IGI/KR1/foo/441/bar/664/664Test.txt b/IGI/KR1/foo/441/bar/664/664Test.txt\nnew file mode 100644\nindex 0000000..bed0799\n--- /dev/null\n+++ b/IGI/KR1/foo/441/bar/664/664Test.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/foo/441/bar/664\ndiff --git a/IGI/KR1/foo/441/bar/barTest.txt b/IGI/KR1/foo/441/bar/barTest.txt\nnew file mode 100644\nindex 0000000..e7c1a69\n--- /dev/null\n+++ b/IGI/KR1/foo/441/bar/barTest.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/foo/441/bar\ndiff --git a/IGI/KR1/foo/441/baz/244/244Test.txt b/IGI/KR1/foo/441/baz/244/244Test.txt\nnew file mode 100644\nindex 0000000..5ed50aa\n--- /dev/null\n+++ b/IGI/KR1/foo/441/baz/244/244Test.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/foo/441/baz/244\ndiff --git a/IGI/KR1/foo/441/baz/244/readme.txt b/IGI/KR1/foo/441/baz/244/readme.txt\nnew file mode 100644\nindex 0000000..617de7e\n--- /dev/null\n+++ b/IGI/KR1/foo/441/baz/244/readme.txt\n@@ -0,0 +1 @@\n+411\ndiff --git a/IGI/KR1/foo/441/baz/bazTest.txt b/IGI/KR1/foo/441/baz/bazTest.txt\nnew file mode 100644\nindex 0000000..5f662fb\n--- /dev/null\n+++ b/IGI/KR1/foo/441/baz/bazTest.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/foo/441/baz\ndiff --git a/IGI/KR1/foo/441/example/200/200Test.txt b/IGI/KR1/foo/441/example/200/200Test.txt\nnew file mode 100644\nindex 0000000..3d3ab07\n--- /dev/null\n+++ b/IGI/KR1/foo/441/example/200/200Test.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/foo/441/example/200\ndiff --git a/IGI/KR1/foo/441/example/exampleTest.txt b/IGI/KR1/foo/441/example/exampleTest.txt\nnew file mode 100644\nindex 0000000..cf6ffd4\n--- /dev/null\n+++ b/IGI/KR1/foo/441/example/exampleTest.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/foo/441/example\ndiff --git a/IGI/KR1/foo/441/test.txt b/IGI/KR1/foo/441/test.txt\nnew file mode 100644\nindex 0000000..8f087a3\n--- /dev/null\n+++ b/IGI/KR1/foo/441/test.txt\n@@ -0,0 +1 @@\n+000\ndiff --git a/IGI/KR1/foo/fooTest.txt b/IGI/KR1/foo/fooTest.txt\nnew file mode 100644\nindex 0000000..ec4c75d\n--- /dev/null\n+++ b/IGI/KR1/foo/fooTest.txt\n@@ -0,0 +1 @@\n+Test file for IGI/KR1/foo\ndiff --git a/IGI/KR1/geometric_lib b/IGI/KR1/geometric_lib\nnew file mode 160000\nindex 0000000..d078c8d\n--- /dev/null\n+++ b/IGI/KR1/geometric_lib\n@@ -0,0 +1 @@\n+Subproject commit d078c8d9ee6155f3cb0e577d28d337b791de28e2\ndiff --git a/STRWEB/IPR1/IPR1Test.txt b/STRWEB/IPR1/IPR1Test.txt\nnew file mode 100644\nindex 0000000..f55d030\n--- /dev/null\n+++ b/STRWEB/IPR1/IPR1Test.txt\n@@ -0,0 +1 @@\n+Test file for STRWEB/IPR1\ndiff --git a/STRWEB/KR1/KR1Test.txt b/STRWEB/KR1/KR1Test.txt\nnew file mode 100644\nindex 0000000..c39f3c0\n--- /dev/null\n+++ b/STRWEB/KR1/KR1Test.txt\n@@ -0,0 +1 @@\n+Test file for STRWEB/KR1\ndiff --git a/STRWEB/STRWEBTest.txt b/STRWEB/STRWEBTest.txt\nnew file mode 100644\nindex 0000000..03c9c04\n--- /dev/null\n+++ b/STRWEB/STRWEBTest.txt\n@@ -0,0 +1 @@\n+Test file for STRWEB\ncommit 08741871e2862bb383055526b9edd8f92bfb5dd7\nAuthor: Kirill <91018711+VPG1@users.noreply.github.com>\n\n    Initial commit\n---\n LICENSE | 21 +++++++++++++++++++++\n 1 file changed, 21 insertions(+)\n\ndiff --git a/LICENSE b/LICENSE\nnew file mode 100644\nindex 0000000..abcc897\n--- /dev/null\n+++ b/LICENSE\n@@ -0,0 +1,21 @@\n+MIT License\n+\n+Copyright (c) 2026 Kirill\n+\n+Permission is hereby granted, free of charge, to any person obtaining a copy\n+of this software and associated documentation files (the \"Software\"), to deal\n+in the Software without restriction, including without limitation the rights\n+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n+copies of the Software, and to permit persons to whom the Software is\n+furnished to do so, subject to the following conditions:\n+\n+The above copyright notice and this permission notice shall be included in all\n+copies or substantial portions of the Software.\n+\n+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n+SOFTWARE.\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "printf '%s\\n' '8' > test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git status --short",
+    "output": "?? test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git status --short",
+    "output": "?? test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git add test.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git status --short",
+    "output": "A  test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git status --short",
+    "output": "A  test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git commit -m 'Add variant number 8'",
+    "output": "[main 889c64f] Add variant number 8\n 1 file changed, 1 insertion(+)\n create mode 100644 test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git revert --no-edit HEAD",
+    "output": "[main 4769e63] Revert \"Add variant number 8\"\n Date: Tue Oct 13 08:11:39 2026 +0300\n 1 file changed, 1 deletion(-)\n delete mode 100644 test.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4j",
+    "command": "git log -n 2 --oneline",
+    "output": "4769e63 Revert \"Add variant number 8\"\n889c64f Add variant number 8\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4k",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4k",
+    "command": "printf '%s\\n' 'Unstage demonstration' >> IGI/IGITest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4k",
+    "command": "git status --short",
+    "output": " M IGI/IGITest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4k",
+    "command": "git status --short",
+    "output": " M IGI/IGITest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4k",
+    "command": "git add IGI/IGITest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4k",
+    "command": "git status --short",
+    "output": "M  IGI/IGITest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4k",
+    "command": "git status --short",
+    "output": "M  IGI/IGITest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4k",
+    "command": "git restore --staged IGI/IGITest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4k",
+    "command": "git status --short",
+    "output": " M IGI/IGITest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4l",
+    "command": "git diff -- IGI/IGITest.txt",
+    "output": "diff --git a/IGI/IGITest.txt b/IGI/IGITest.txt\nindex c638f1c..102bc7b 100644\n--- a/IGI/IGITest.txt\n+++ b/IGI/IGITest.txt\n@@ -1,2 +1,3 @@\n Test file for IGI\n Edited after staging\n+Unstage demonstration\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4l",
+    "command": "git status --short",
+    "output": " M IGI/IGITest.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4l",
+    "command": "git restore IGI/IGITest.txt",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4l",
+    "command": "git status --short",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4l",
+    "command": "git diff --exit-code",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "5a",
+    "command": "git remote -v",
+    "output": "origin\thttps://github.com/VPG1/IGI_LABS_ROMEYKO.git (fetch)\norigin\thttps://github.com/VPG1/IGI_LABS_ROMEYKO.git (push)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "5b",
+    "command": "git remote show origin",
+    "output": "* remote origin\n  Fetch URL: https://github.com/VPG1/IGI_LABS_ROMEYKO.git\n  Push  URL: https://github.com/VPG1/IGI_LABS_ROMEYKO.git\n  HEAD branch: main\n  Remote branch:\n    main tracked\n  Local branch configured for 'git pull':\n    main merges with remote main\n  Local ref configured for 'git push':\n    main pushes to main (fast-forwardable)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "5b",
+    "command": "git fetch origin",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "5d",
+    "command": "git remote rename origin coursework",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "5d",
+    "command": "git remote -v",
+    "output": "coursework\thttps://github.com/VPG1/IGI_LABS_ROMEYKO.git (fetch)\ncoursework\thttps://github.com/VPG1/IGI_LABS_ROMEYKO.git (push)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "5d",
+    "command": "git remote rename coursework origin",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "5c",
+    "command": "git status --short",
+    "output": "?? .gitignore\n?? IGI/KR1/Task2/\n?? IGI/KR1/Task3/\n?? IGI/KR1/Task4/\n?? IGI/KR1/tests/\n?? README.md\n?? requirements.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "5c",
+    "command": "git add README.md requirements.txt .gitignore IGI/KR1/Task2 IGI/KR1/Task3 IGI/KR1/Task4 IGI/KR1/tests",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "5c",
+    "command": "git commit -m Implement all four tasks for variant 8",
+    "output": "[main 8efd995] Implement all four tasks for variant 8\n 23 files changed, 1084 insertions(+)\n create mode 100644 .gitignore\n create mode 100644 IGI/KR1/Task2/file_io.py\n create mode 100644 IGI/KR1/Task2/init_data.py\n create mode 100644 IGI/KR1/Task2/input.txt\n create mode 100644 IGI/KR1/Task2/main.py\n create mode 100644 IGI/KR1/Task2/results/archive_info.json\n create mode 100644 IGI/KR1/Task2/results/result.json\n create mode 100644 IGI/KR1/Task2/results/result.txt\n create mode 100644 IGI/KR1/Task2/results/result.zip\n create mode 100644 IGI/KR1/Task2/task2a.py\n create mode 100644 IGI/KR1/Task2/task2b.py\n create mode 100644 IGI/KR1/Task2/utils.py\n create mode 100644 IGI/KR1/Task3/Dockerfile\n create mode 100644 IGI/KR1/Task3/demo_docker.py\n create mode 100644 IGI/KR1/Task3/task2a_runner.py\n create mode 100644 IGI/KR1/Task4/abstract_figure.py\n create mode 100644 IGI/KR1/Task4/figure_color.py\n create mode 100644 IGI/KR1/Task4/main.py\n create mode 100644 IGI/KR1/Task4/pentagon.py\n create mode 100644 IGI/KR1/Task4/results/pentagon.png\n create mode 100644 IGI/KR1/tests/test_tasks.py\n create mode 100644 README.md\n create mode 100644 requirements.txt\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch IGI",
+    "output": "Switched to branch 'IGI'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git add IGI/KR1",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git commit -m Add variant 8 Python and Docker solutions to IGI",
+    "output": "[IGI 3a812b6] Add variant 8 Python and Docker solutions to IGI\n 20 files changed, 940 insertions(+)\n create mode 100644 IGI/KR1/Task2/file_io.py\n create mode 100644 IGI/KR1/Task2/init_data.py\n create mode 100644 IGI/KR1/Task2/input.txt\n create mode 100644 IGI/KR1/Task2/main.py\n create mode 100644 IGI/KR1/Task2/results/archive_info.json\n create mode 100644 IGI/KR1/Task2/results/result.json\n create mode 100644 IGI/KR1/Task2/results/result.txt\n create mode 100644 IGI/KR1/Task2/results/result.zip\n create mode 100644 IGI/KR1/Task2/task2a.py\n create mode 100644 IGI/KR1/Task2/task2b.py\n create mode 100644 IGI/KR1/Task2/utils.py\n create mode 100644 IGI/KR1/Task3/Dockerfile\n create mode 100644 IGI/KR1/Task3/demo_docker.py\n create mode 100644 IGI/KR1/Task3/task2a_runner.py\n create mode 100644 IGI/KR1/Task4/abstract_figure.py\n create mode 100644 IGI/KR1/Task4/figure_color.py\n create mode 100644 IGI/KR1/Task4/main.py\n create mode 100644 IGI/KR1/Task4/pentagon.py\n create mode 100644 IGI/KR1/Task4/results/pentagon.png\n create mode 100644 IGI/KR1/tests/test_tasks.py\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch IGI-KR1",
+    "output": "Switched to branch 'IGI-KR1'\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git add IGI/KR1",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git commit -m Add variant 8 Python and Docker solutions to IGI-KR1",
+    "output": "[IGI-KR1 502e87e] Add variant 8 Python and Docker solutions to IGI-KR1\n 20 files changed, 940 insertions(+)\n create mode 100644 IGI/KR1/Task2/file_io.py\n create mode 100644 IGI/KR1/Task2/init_data.py\n create mode 100644 IGI/KR1/Task2/input.txt\n create mode 100644 IGI/KR1/Task2/main.py\n create mode 100644 IGI/KR1/Task2/results/archive_info.json\n create mode 100644 IGI/KR1/Task2/results/result.json\n create mode 100644 IGI/KR1/Task2/results/result.txt\n create mode 100644 IGI/KR1/Task2/results/result.zip\n create mode 100644 IGI/KR1/Task2/task2a.py\n create mode 100644 IGI/KR1/Task2/task2b.py\n create mode 100644 IGI/KR1/Task2/utils.py\n create mode 100644 IGI/KR1/Task3/Dockerfile\n create mode 100644 IGI/KR1/Task3/demo_docker.py\n create mode 100644 IGI/KR1/Task3/task2a_runner.py\n create mode 100644 IGI/KR1/Task4/abstract_figure.py\n create mode 100644 IGI/KR1/Task4/figure_color.py\n create mode 100644 IGI/KR1/Task4/main.py\n create mode 100644 IGI/KR1/Task4/pentagon.py\n create mode 100644 IGI/KR1/Task4/results/pentagon.png\n create mode 100644 IGI/KR1/tests/test_tasks.py\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git switch main",
+    "output": "Switched to branch 'main'\nYour branch is ahead of 'origin/main' by 9 commits.\n  (use \"git push\" to publish your local commits)\n",
+    "exit_code": 0
+  },
+  {
+    "section": "4f",
+    "command": "git submodule update --init",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "5c",
+    "command": "git bundle create /Users/kirill/Documents/Codex/2026-10-13/new-chat/work/package/Task1/repository.bundle --all",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "4g",
+    "command": "git log --author=Ромейко --oneline -- IGI/IGITest.txt",
+    "output": "d650baa Edit IGI test file\ncbd294c Create variant 8 folder structure and submodule\n",
+    "exit_code": 0
+  },
+  {
+    "section": "5e",
+    "command": "git fetch origin",
+    "output": "From https://github.com/VPG1/IGI_LABS_ROMEYKO\n   0874187..38d5121  main        -> origin/main\n * [new branch]      IGI         -> origin/IGI\n * [new branch]      IGI-IPR1    -> origin/IGI-IPR1\n * [new branch]      IGI-KR1     -> origin/IGI-KR1\n * [new branch]      STRWEB      -> origin/STRWEB\n * [new branch]      STRWEB-IPR1 -> origin/STRWEB-IPR1\n * [new branch]      STRWEB-KR1  -> origin/STRWEB-KR1\n",
+    "exit_code": 0
+  },
+  {
+    "section": "5e",
+    "command": "git branch -a",
+    "output": "  IGI\n  IGI-IPR1\n  IGI-KR1\n  STRWEB\n  STRWEB-IPR1\n  STRWEB-KR1\n* main\n  remotes/origin/HEAD -> origin/main\n  remotes/origin/IGI\n  remotes/origin/IGI-IPR1\n  remotes/origin/IGI-KR1\n  remotes/origin/STRWEB\n  remotes/origin/STRWEB-IPR1\n  remotes/origin/STRWEB-KR1\n  remotes/origin/main\n",
+    "exit_code": 0
+  },
+  {
+    "section": "5f",
+    "command": "git log origin/main -n 8 --oneline",
+    "output": "38d5121 Document the repository launch paths\n38e8cda Implement all four tasks for variant 8\n1546974 Revert \"Add variant number 8\"\n40b036d Add variant number 8\n5ca2b45 Restore required folder test filename\n2f3fbc0 Rename STRWEB test file\n5c08239 Remove single file and temporary file group\n9908438 Add single file and temporary file group\n",
+    "exit_code": 0
+  },
+  {
+    "section": "5f",
+    "command": "git log origin/main --graph --oneline --all",
+    "output": "* 38d5121 Document the repository launch paths\n* 38e8cda Implement all four tasks for variant 8\n* 1546974 Revert \"Add variant number 8\"\n* 40b036d Add variant number 8\n| * 4198819 Add variant 8 Python and Docker solutions to IGI-KR1\n| * ca86646 Keep folders for branch IGI-KR1\n|/  \n| * 69de245 Add variant 8 Python and Docker solutions to IGI\n| * 32a1eab Keep folders for branch IGI\n|/  \n| * 0170cac Keep folders for branch IGI-IPR1\n|/  \n| * 9f08327 Keep folders for branch STRWEB\n|/  \n| * ee328db Keep folders for branch STRWEB-IPR1\n|/  \n| * dab52f7 Keep folders for branch STRWEB-KR1\n|/  \n* 5ca2b45 Restore required folder test filename\n* 2f3fbc0 Rename STRWEB test file\n* 5c08239 Remove single file and temporary file group\n* 9908438 Add single file and temporary file group\n* 5c3550b Edit IGI test file\n* c9f9c95 Create variant 8 folder structure and submodule\n| * 6891c72 Document the repository launch paths\n| * 8efd995 Implement all four tasks for variant 8\n| * 4769e63 Revert \"Add variant number 8\"\n| * 889c64f Add variant number 8\n| | * 502e87e Add variant 8 Python and Docker solutions to IGI-KR1\n| | * 7d3fd9d Keep folders for branch IGI-KR1\n| |/  \n| | * 3a812b6 Add variant 8 Python and Docker solutions to IGI\n| | * 5fcb88b Keep folders for branch IGI\n| |/  \n| | * b2a6a0a Keep folders for branch IGI-IPR1\n| |/  \n| | * f3b5d7e Keep folders for branch STRWEB\n| |/  \n| | * 2a4fcfd Keep folders for branch STRWEB-IPR1\n| |/  \n| | * 64293a7 Keep folders for branch STRWEB-KR1\n| |/  \n| * 0f0313e Restore required folder test filename\n| * b626023 Rename STRWEB test file\n| * 27641c8 Remove single file and temporary file group\n| * f65cdab Add single file and temporary file group\n| * d650baa Edit IGI test file\n| * cbd294c Create variant 8 folder structure and submodule\n|/  \n* 0874187 Initial commit\n",
+    "exit_code": 0
+  },
+  {
+    "section": "5f",
+    "command": "git diff main origin/main --stat",
+    "output": "",
+    "exit_code": 0
+  }
+]
