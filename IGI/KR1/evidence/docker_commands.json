@@ -1,0 +1,188 @@
+[
+  {
+    "section": "versions",
+    "command": "docker version",
+    "output": "Client: Docker Engine - Community\n Version:           27.5.1\n API version:       1.47\n Go version:        go1.23.5\n Git commit:        9f9e405801\n Built:             Tue Jan 21 23:46:20 2025\n OS/Arch:           darwin/arm64\n Context:           colima\n\nServer: Docker Engine - Community\n Engine:\n  Version:          27.4.0\n  API version:      1.47 (minimum version 1.24)\n  Go version:       go1.22.10\n  Git commit:       92a8393\n  Built:            Sat Dec  7 10:39:01 2024\n  OS/Arch:          linux/arm64\n  Experimental:     false\n containerd:\n  Version:          1.7.24\n  GitCommit:        88bf19b2105c8b17560993bee28a01ddc2f97182\n runc:\n  Version:          1.2.2\n  GitCommit:        v1.2.2-0-g7cb3632\n docker-init:\n  Version:          0.19.0\n  GitCommit:        de40ad0\n",
+    "exit_code": 0
+  },
+  {
+    "section": "build",
+    "command": "docker build --progress=plain -f Task3/Dockerfile -t kr1-variant8:967cb277 .",
+    "output": "#0 building with \"colima\" instance using docker driver\n\n#1 [internal] load build definition from Dockerfile\n#1 transferring dockerfile: 272B done\n#1 DONE 0.0s\n\n#2 [internal] load metadata for docker.io/library/python:3.12-slim\n#2 DONE 0.0s\n\n#3 [internal] load .dockerignore\n#3 transferring context: 148B done\n#3 DONE 0.0s\n\n#4 [internal] load build context\n#4 transferring context: 3.76kB done\n#4 DONE 0.0s\n\n#5 [1/4] FROM docker.io/library/python:3.12-slim\n#5 DONE 0.0s\n\n#6 [2/4] WORKDIR /app\n#6 DONE 0.0s\n\n#7 [3/4] COPY Task2/task2a.py Task2/utils.py ./\n#7 DONE 0.0s\n\n#8 [4/4] COPY Task3/task2a_runner.py ./\n#8 DONE 0.0s\n\n#9 exporting to image\n#9 exporting layers 0.0s done\n#9 writing image sha256:806943e210e5326685c4d59f9da3ddbe01326b5d58c69451e633eedd74425685 done\n#9 naming to docker.io/library/kr1-variant8:967cb277 done\n#9 DONE 0.0s\n\nView build details: docker-desktop://dashboard/build/colima/colima/tfe2t4db9xxrwoquqbsmdvz5n\n",
+    "exit_code": 0
+  },
+  {
+    "section": "tag",
+    "command": "docker tag kr1-variant8:967cb277 kr1-variant8:verified-967cb277",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "images",
+    "command": "docker images kr1-variant8",
+    "output": "REPOSITORY     TAG                 IMAGE ID       CREATED         SIZE\nkr1-variant8   967cb277            806943e210e5   5 minutes ago   145MB\nkr1-variant8   verified-967cb277   806943e210e5   5 minutes ago   145MB\n",
+    "exit_code": 0
+  },
+  {
+    "section": "2a-env",
+    "command": "docker run --rm -e 'TEXT=Вариант 8, 2026' kr1-variant8:967cb277",
+    "output": "Количество цифр: 5\n",
+    "exit_code": 0
+  },
+  {
+    "section": "2a-stdin",
+    "command": "docker run --rm -i kr1-variant8:967cb277",
+    "output": "Введите текст: Количество цифр: 5\n",
+    "exit_code": 0
+  },
+  {
+    "section": "2a-argument",
+    "command": "docker run --rm kr1-variant8:967cb277 --text 'Задача 8: 0123456789'",
+    "output": "Количество цифр: 11\n",
+    "exit_code": 0
+  },
+  {
+    "section": "network",
+    "command": "docker network create kr1-v8-network-967cb277",
+    "output": "70d19fa6d4007602bd1489b073f879bc062ec4823af61a07eaf19986fcc8e517\n",
+    "exit_code": 0
+  },
+  {
+    "section": "network",
+    "command": "docker network ls --filter name=kr1-v8-network-967cb277",
+    "output": "NETWORK ID     NAME                      DRIVER    SCOPE\n70d19fa6d400   kr1-v8-network-967cb277   bridge    local\n",
+    "exit_code": 0
+  },
+  {
+    "section": "volume",
+    "command": "docker volume create kr1-v8-volume-967cb277",
+    "output": "kr1-v8-volume-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "volume",
+    "command": "docker volume ls --filter name=kr1-v8-volume-967cb277",
+    "output": "DRIVER    VOLUME NAME\nlocal     kr1-v8-volume-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "2a-volume",
+    "command": "docker run --rm -v kr1-v8-volume-967cb277:/data --entrypoint python kr1-variant8:967cb277 -c 'from pathlib import Path; Path('\"'\"'/data/input.txt'\"'\"').write_text('\"'\"'Текст 800 и 15'\"'\"', encoding='\"'\"'utf-8'\"'\"')'",
+    "output": "",
+    "exit_code": 0
+  },
+  {
+    "section": "2a-volume",
+    "command": "docker run --rm -v kr1-v8-volume-967cb277:/data kr1-variant8:967cb277 --file /data/input.txt --output /data/result.txt",
+    "output": "Количество цифр: 5\n",
+    "exit_code": 0
+  },
+  {
+    "section": "2a-volume",
+    "command": "docker run --rm -v kr1-v8-volume-967cb277:/data --entrypoint python kr1-variant8:967cb277 -c 'from pathlib import Path; print(Path('\"'\"'/data/result.txt'\"'\"').read_text(encoding='\"'\"'utf-8'\"'\"'), end='\"'\"''\"'\"')'",
+    "output": "Количество цифр: 5\n",
+    "exit_code": 0
+  },
+  {
+    "section": "volume",
+    "command": "docker volume inspect --format '{{.Name}} {{.Driver}}' kr1-v8-volume-967cb277",
+    "output": "kr1-v8-volume-967cb277 local\n",
+    "exit_code": 0
+  },
+  {
+    "section": "run",
+    "command": "docker run -d --name kr1-v8-container-967cb277 --network kr1-v8-network-967cb277 -v kr1-v8-volume-967cb277:/data --entrypoint python kr1-variant8:967cb277 -u -c 'import time; print('\"'\"'Variant 8 lifecycle demo'\"'\"', flush=True); time.sleep(300)'",
+    "output": "0f68943a4b6d867c9237d0fd0be49ce9e83b3d579c4fa625630ad5e1403890f6\n",
+    "exit_code": 0
+  },
+  {
+    "section": "ps",
+    "command": "docker ps --filter name=kr1-v8-container-967cb277",
+    "output": "CONTAINER ID   IMAGE                   COMMAND                  CREATED         STATUS                  PORTS     NAMES\n0f68943a4b6d   kr1-variant8:967cb277   \"python -u -c 'impor…\"   5 minutes ago   Up Less than a second             kr1-v8-container-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "logs",
+    "command": "docker logs kr1-v8-container-967cb277",
+    "output": "Variant 8 lifecycle demo\n",
+    "exit_code": 0
+  },
+  {
+    "section": "pause",
+    "command": "docker pause kr1-v8-container-967cb277",
+    "output": "kr1-v8-container-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "pause",
+    "command": "docker inspect --format '{{.State.Status}} paused={{.State.Paused}}' kr1-v8-container-967cb277",
+    "output": "paused paused=true\n",
+    "exit_code": 0
+  },
+  {
+    "section": "unpause",
+    "command": "docker unpause kr1-v8-container-967cb277",
+    "output": "kr1-v8-container-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "restart",
+    "command": "docker restart -t 1 kr1-v8-container-967cb277",
+    "output": "kr1-v8-container-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "stop",
+    "command": "docker stop -t 1 kr1-v8-container-967cb277",
+    "output": "kr1-v8-container-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "stop",
+    "command": "docker ps -a --filter name=kr1-v8-container-967cb277",
+    "output": "CONTAINER ID   IMAGE                   COMMAND                  CREATED         STATUS                                PORTS     NAMES\n0f68943a4b6d   kr1-variant8:967cb277   \"python -u -c 'impor…\"   5 minutes ago   Exited (137) Less than a second ago             kr1-v8-container-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "start",
+    "command": "docker start kr1-v8-container-967cb277",
+    "output": "kr1-v8-container-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "inspect",
+    "command": "docker inspect --format 'name={{.Name}} image={{.Config.Image}} status={{.State.Status}} mounts={{json .Mounts}}' kr1-v8-container-967cb277",
+    "output": "name=/kr1-v8-container-967cb277 image=kr1-variant8:967cb277 status=running mounts=[{\"Type\":\"volume\",\"Name\":\"kr1-v8-volume-967cb277\",\"Source\":\"/var/lib/docker/volumes/kr1-v8-volume-967cb277/_data\",\"Destination\":\"/data\",\"Driver\":\"local\",\"Mode\":\"z\",\"RW\":true,\"Propagation\":\"\"}]\n",
+    "exit_code": 0
+  },
+  {
+    "section": "network",
+    "command": "docker network inspect --format '{{.Name}} driver={{.Driver}}' kr1-v8-network-967cb277",
+    "output": "kr1-v8-network-967cb277 driver=bridge\n",
+    "exit_code": 0
+  },
+  {
+    "section": "cleanup",
+    "command": "docker rm -f kr1-v8-container-967cb277",
+    "output": "kr1-v8-container-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "cleanup",
+    "command": "docker network rm kr1-v8-network-967cb277",
+    "output": "kr1-v8-network-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "cleanup",
+    "command": "docker volume rm kr1-v8-volume-967cb277",
+    "output": "kr1-v8-volume-967cb277\n",
+    "exit_code": 0
+  },
+  {
+    "section": "cleanup",
+    "command": "docker image rm kr1-variant8:verified-967cb277 kr1-variant8:967cb277",
+    "output": "Untagged: kr1-variant8:verified-967cb277\nUntagged: kr1-variant8:967cb277\nDeleted: sha256:806943e210e5326685c4d59f9da3ddbe01326b5d58c69451e633eedd74425685\n",
+    "exit_code": 0
+  }
+]
